@@ -12,22 +12,26 @@ Let's get started!
 🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
 -->
 
-**Ashokai** provides a fun, bright palette:
+**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for PHP, JSX and Statamic Antlers.
 
-![](https://nova.app/images/en/dark/editor.png)
+![](images/extension/ashokai.jpg)
 
-<!--
-🎈 If your extension provides multiple variations, don't forget to show those too!
--->
 
-Ashokai also offers a lighter alternative:
+Ashokai comes with a few variants:
 
-![](https://nova.app/images/en/light/editor.png)
+### Contrasty
+
+Which has more contrast.
+
+![](images/extension/ashokai-contrasty.jpg)
+
+### Urple
+
+is kind of purple
+
+![](images/extension/ashokai-urple.jpg)
 
 ## Acknowledgements
 
-<!--
-🎈 If your theme is based on existing work by someone else, consider crediting the original author
--->
 
-Ashokai is based on _Original Ashokai_ by [Lauren Ipsum](https://en.wikipedia.org/wiki/Lorem_ipsum).
+Ashokai is influenced by [Nebula](https://monokai.pro), [Monokai pro](https://monokai.pro) and [Catppuccin](https://catppuccin-website.vercel.app).
