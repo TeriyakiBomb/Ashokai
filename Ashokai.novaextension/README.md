@@ -14,7 +14,7 @@ Let's get started!
 
 **Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for PHP, JSX and Statamic Antlers.
 
-![](images/extension/ashokai.jpg)
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai.jpg)
 
 
 Ashokai comes with a few variants:
@@ -23,13 +23,13 @@ Ashokai comes with a few variants:
 
 Which has more contrast.
 
-![](images/extension/ashokai-contrasty.jpg)
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai-contrasty.jpg)
 
 ### Urple
 
 is kind of purple
 
-![](images/extension/ashokai-urple.jpg)
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai-urple.jpg)
 
 ## Acknowledgements
 
