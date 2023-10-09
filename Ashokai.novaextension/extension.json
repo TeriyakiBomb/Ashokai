@@ -2,7 +2,9 @@
     "identifier": "teriyaki.Ashokai",
     "name": "Ashokai",
     "organization": "Teriyaki",
-    "description": "A fancy and colorful theme.",
+    "description": "A fancy and colorful theme for fancy people.",
+    "repository": "https://github.com/TeriyakiBomb/Ashokai",
+    "bugs": "https://github.com/TeriyakiBomb/Ashokai/issues",
     "version": "1.0",
     "categories": ["themes"]
 }

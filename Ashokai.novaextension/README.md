@@ -1,17 +1,3 @@
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
-
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
-
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "Ashokai" in the sidebar.
-
-Let's get started!
--->
-
-<!--
-🎈 To give users an idea of what your theme looks like, it's a great idea to show big, beautiful screenshots of your theme in action:
--->
-
 **Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for PHP, JSX and Statamic Antlers.
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai.jpg)
@@ -30,6 +16,8 @@ Which has more contrast.
 is kind of purple
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai-urple.jpg)
+
+If you've got any suggestions for specific highlighting, I'm all ears, open up an issue on the github repo
 
 ## Acknowledgements
 
