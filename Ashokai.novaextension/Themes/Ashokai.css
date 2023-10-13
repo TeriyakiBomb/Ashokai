@@ -170,7 +170,7 @@ value.symbol {
 
 /* Identifiers */
 identifier {
-    color: rgb(215, 225, 241);
+    color: hsl(217, 48%, 89%);
 }
 identifier.type {
     color: hsl(256, 51%, 68%);
