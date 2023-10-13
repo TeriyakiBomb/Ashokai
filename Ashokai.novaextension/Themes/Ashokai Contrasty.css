@@ -219,24 +219,24 @@ cdata {
 
 /* Markup */
 markup.heading {
-    color: hsl(30, 50%, 80%);
+    color: hsl(339, 100%, 56%);
 }
 markup.line {
     color: hsl(60, 50%, 75%);
 }
 markup.bold {
-    color: hsl(196, 60%, 76%);
+    color: hsl(196, 75%, 76%);
     font-weight: bold;
 }
 markup.italic {
-    color: hsl(94, 40%, 80%);
+    color: hsl(94, 50%, 70%);
     font-style: italic;
 }
 markup.strikethrough {
     color: hsl(0, 60%, 100%);
 }
 markup.list.item {
-    color: hsl(30, 50%, 80%);
+    color: hsl(30, 70%, 80%);
 }
 markup.code {
     background-color: hsla(0, 0%, 50%, 0.2);
