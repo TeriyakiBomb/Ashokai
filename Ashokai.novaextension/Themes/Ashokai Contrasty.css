@@ -268,10 +268,10 @@ tag.bracket{
     color: hsl(217, 32%, 45%);
 }
 tag.framework {
-    color: hsl(311, 73%, 70%);
+    color: hsl(311, 73%, 75%);
 }
 tag.attribute.name {
-    color: hsl(95, 54%, 82%);
+    color: hsl(95, 54%, 85%);
 }
 tag.attribute.value {
     color: hsl(39, 100%, 51%)
