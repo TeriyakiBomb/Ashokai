@@ -1,0 +1,366 @@
+meta {
+  -theme-interface-style: dark;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+meta.window {
+  background-color: hsl(23, 17%, 11%);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+meta.titlebar {
+  color: hsl(60, 25%, 98%);
+  background-color: hsl(23, 19%, 11%);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+meta.titlebar.inactive {
+  background-color: hsl(22, 17%, 12%);
+}
+meta.button {
+  background: linear-gradient(rgba(153, 153, 153, 0.25), rgba(127, 127, 127, 0.2));
+  border-color: rgba(0, 0, 0, 0.2);
+  color: hsl(60, 25%, 98%);
+}
+meta.button.highlighted {
+  background: linear-gradient(rgba(153, 153, 153, 0.5), rgba(127, 127, 127, 0.1));
+}
+meta.button.selected {
+  background: linear-gradient(#78dce8, #21afc0);
+  color: hsl(60, 25%, 98%);
+}
+meta.button.highlighted.selected {
+  background: linear-gradient(rgba(120, 220, 232, 0.75), rgba(33, 175, 192, 0.75));
+  color: hsl(60, 25%, 98%);
+}
+meta.textfield {
+  background-color: hsl(22, 10%, 18%);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+meta.textfield.highlighted {
+  background-color: #232323;
+  border-color: rgba(153, 153, 153, 0.5);
+}
+
+meta.document.button {
+  background: linear-gradient(rgba(153, 153, 153, 0.25), rgba(127, 127, 127, 0.2));
+  border-color: rgba(0, 0, 0, 0.2);
+}
+meta.document.button.disabled {
+  background-color: transparent;
+  color: rgba(162, 162, 162, 0.5);
+}
+meta.document.button.highlighted {
+  background: linear-gradient(rgba(153, 153, 153, 0.5), rgba(127, 127, 127, 0.1));
+}
+meta.document.textfield {
+  background-color: rgba(127, 127, 127, 0.15);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+meta.document.textfield.highlighted {
+  background-color: #232323;
+  border-color: rgba(153, 153, 153, 0.5);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: hsl(22, 18%, 14%);
+    border-color: transparent;
+}
+
+meta.document.button {
+    background-color: hsl(217, 33%, 22%);
+    color: hsl(217, 25%, 70%);
+}
+meta.document.button.disabled {
+    background-color: hsl(217, 33%, 19%);
+    border-color: transparent;
+    color: hsl(217, 29%, 40%);
+}
+meta.document.button.highlighted {
+    background-color: hsl(22, 33%, 25%);
+}
+
+meta.textfield {
+  background-color: hsl(22, 23%, 11%);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+meta.textfield.highlighted {
+  background-color: hsl(22, 5%, 14%);
+  border-color: rgba(153, 153, 153, 0.5);
+}
+
+/* Text */
+meta.text {
+    color: hsl(22, 34%, 90%);
+}
+meta.text.invisible {
+    color: hsl(253, 40%, 30%);
+}
+meta.text.selected {
+    background-color: hsl(22, 34%, 20%);
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: rgba(104, 72, 12, 0.082);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: hsl(22, 40%, 30%);
+}
+
+/* Gutter */
+meta.gutter {
+    color:  hsl(22, 15%, 30%);
+}
+meta.gutter.selected {
+    color:  hsl(22, 15%, 42%);
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: hsl(207, 100%, 74%);
+}
+comment {
+    color: rgba(117, 98, 87, 0.86);
+}
+processing {
+    color: hsl(210, 20%, 50%);
+}
+declaration {
+    color: hsl(210, 20%, 50%);
+}
+bracket {
+    color: hsl(21, 20%, 52%);
+}
+operator {
+    color: hsl(339, 94%, 63%);
+}
+invalid {
+    background-color: hsl(355, 82%, 96%);
+    color: hsl(60, 3%, 97%);
+}
+link {
+    color: hsl(210, 60%, 100%);
+
+}
+
+/* Values */
+value.boolean {
+    color: hsl(210, 60%, 100%);
+}
+value.null {
+    color: hsl(210, 60%, 100%);
+}
+value.number {
+    color: hsl(270, 76%, 71%);
+}
+value.entity {
+    color: hsl(210, 60%, 100%);
+}
+value.symbol {
+    color: hsl(210, 60%, 100%);
+}
+
+/* Identifiers */
+identifier {
+    color: color(display-p3 0.852 0.883 0.939);
+}
+identifier.type {
+    color: hsl(256, 51%, 68%);
+}
+identifier.constant {
+}
+identifier.global, identifier.variable {
+    color: hsl(268, 34%, 100%);
+}
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+    color: hsl(339, 94%, 63%);
+}
+identifier.key {
+    color: hsl(210, 60%, 100%);
+}
+identifier.argument {
+    color: hsl(39, 96%, 69%)
+    font-style: italic;
+}
+
+/* Strings */
+string {
+    color: hsl(26, 100%, 64%);
+}
+string.key {
+    color: hsl(5, 65%, 100%);
+}
+string-template {
+    color: hsl(27, 60%, 100%);
+}
+string-template.value {
+    color: hsl(27, 72%, 100%);
+}
+regex {
+    color: hsl(40, 72%, 100%);
+}
+regex.escaped {
+    color: hsl(27, 72%, 99%);
+}
+cdata {
+    color: hsl(210, 60%, 100%);
+}
+
+/* Markup */
+markup.heading {
+    color: hsl(30, 50%, 80%);
+}
+markup.line {
+    color: hsl(60, 50%, 75%);
+}
+markup.bold {
+    color: hsl(196, 60%, 76%);
+    font-weight: bold;
+}
+markup.italic {
+    color: hsl(94, 40%, 80%);
+    font-style: italic;
+}
+markup.strikethrough {
+    color: hsl(0, 60%, 100%);
+}
+markup.list.item {
+    color: hsl(30, 50%, 80%);
+}
+markup.code {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: hsl(258, 40%, 87%);
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: hsl(210, 10%, 100%);
+}
+
+/* Tags */
+tag {
+    color: hsl(166, 40%, 78%);
+}
+tag.bracket{
+    color: hsl(217, 32%, 45%);
+}
+tag.framework {
+    color: hsl(311, 73%, 70%);
+}
+tag.attribute.name {
+    color: hsl(95, 54%, 82%);
+}
+tag.attribute.value {
+    color: hsl(39, 96%, 69%);
+}
+tag.attribute.value.link {
+    color: hsl(210, 60%, 100%);
+}
+
+/* Styles */
+style.at {
+    color: hsl(25, 75%, 100%);
+}
+style.selector {
+    color: hsl(133, 70%, 60%);
+}
+style.attribute.name,
+scss.attribute.name {
+    color: hsl(39, 74%, 62%);
+}
+
+style.value.number{
+  color: hsl(207, 38%, 91%);
+}
+
+/* HTML */
+
+html.tag {
+    color: hsl(246, 32%, 50%);
+}
+
+tag.name {
+    color: hsl(339, 94%, 63%);
+}
+
+html.tag.name {
+    color: hsl(339, 94%, 63%);
+}
+
+/* ANTLERS */
+
+antlers.tag.framework.variable.start, antlers.tag.framework.variable.end{
+  color: hsl(207, 100%, 74%);
+}
+
+antlers.identifier.argument{
+    color: hsl(272, 90%, 68%);
+}
+
+antlers.operator{
+  color: hsl(360, 100%, 97%);
+}
+
+/* JS */
+
+javascript.block {
+    color: hsl(217, 27%, 59%);
+}
+
+javascript.definition.function {
+    color: hsl(207, 100%, 74%);
+}
+javascript.definition.function.anonymous {
+    color: hsl(339, 94%, 63%);
+}
+javascript.identifier.method {
+    color: hsl(339, 94%, 63%);
+}
+javascript.identifier.name {
+    color: #fff;
+}
+javascript.identifier.argument {
+    color: hsl(42, 86%, 81%);
+}
+
+tag.attribute.name {
+    color: hsl(133, 70%, 60%);
+}
+
+/* JSX */
+
+jsx.tag {
+    color: hsl(217, 32%, 45%);
+}
+jsx.tag.name {
+    color: hsl(133, 70%, 60%);
+}
+
+/* Rust */
+
+definition.function{
+  color: hsl(133, 70%, 60%);
+}
