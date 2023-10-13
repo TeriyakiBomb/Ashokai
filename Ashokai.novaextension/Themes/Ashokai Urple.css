@@ -358,3 +358,9 @@ jsx.tag {
 jsx.tag.name {
     color: hsl(133, 73%, 70%);
 }
+
+/* Rust */
+
+definition.function{
+  color: hsl(133, 73%, 70%);
+}
