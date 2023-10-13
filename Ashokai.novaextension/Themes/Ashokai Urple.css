@@ -69,11 +69,11 @@ meta.document {
 }
 
 meta.document.button {
-    background-color: hsl(217, 33%, 22%);
-    color: hsl(217, 25%, 70%);
+    background-color: hsl(253, 33%, 22%);
+    color: hsl(253, 25%, 70%);
 }
 meta.document.button.disabled {
-    background-color: hsl(217, 33%, 19%);
+    background-color: hsl(253, 33%, 19%);
     border-color: transparent;
     color: hsl(253, 29%, 40%);
 }
@@ -92,7 +92,7 @@ meta.textfield.highlighted {
 
 /* Text */
 meta.text {
-    color: hsl(217, 15%, 90%);
+    color: hsl(253, 100%, 96%);
 }
 meta.text.invisible {
     color: hsl(253, 40%, 30%);
@@ -116,7 +116,7 @@ meta.gutter {
     color:  hsl(237, 15%, 30%);
 }
 meta.gutter.selected {
-    color:  hsl(254, 31%, 53%);
+    color:  hsl(254, 31%, 46%);
 }
 
 
@@ -147,30 +147,30 @@ invalid {
     color: hsl(60, 3%, 97%);
 }
 link {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 
 }
 
 /* Values */
 value.boolean {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 value.null {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 value.number {
     color: hsl(270, 76%, 71%);
 }
 value.entity {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 value.symbol {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 
 /* Identifiers */
 identifier {
-    color: color(display-p3 0.852 0.883 0.939);
+    color: hsl(253, 88%, 94%);
 }
 identifier.type {
     color: hsl(256, 51%, 68%);
@@ -178,7 +178,7 @@ identifier.type {
 identifier.constant {
 }
 identifier.global, identifier.variable {
-    color: hsl(268, 34%, 100%);
+    color: hsl(253, 34%, 100%);
 }
 identifier.property,
 identifier.decorator,
@@ -187,7 +187,7 @@ identifier.method {
     color: hsl(339, 94%, 63%);
 }
 identifier.key {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 identifier.argument {
     color: hsl(39, 96%, 69%)
@@ -199,22 +199,22 @@ string {
     color: hsl(26, 100%, 64%);
 }
 string.key {
-    color: hsl(5, 65%, 100%);
+    color: hsl(260, 65%, 100%);
 }
 string-template {
-    color: hsl(27, 60%, 100%);
+    color: hsl(260, 60%, 100%);
 }
 string-template.value {
-    color: hsl(27, 72%, 100%);
+    color: hsl(260, 72%, 100%);
 }
 regex {
-    color: hsl(40, 72%, 100%);
+    color: hsl(260, 72%, 100%);
 }
 regex.escaped {
-    color: hsl(27, 72%, 99%);
+    color: hsl(260, 72%, 99%);
 }
 cdata {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 
 /* Markup */
@@ -257,7 +257,7 @@ definition.struct struct.name {
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: hsl(210, 10%, 100%);
+    color: hsl(253, 10%, 100%);
 }
 
 /* Tags */
@@ -277,7 +277,7 @@ tag.attribute.value {
     color: hsl(39, 96%, 69%);
 }
 tag.attribute.value.link {
-    color: hsl(210, 60%, 100%);
+    color: hsl(253, 60%, 100%);
 }
 
 /* Styles */
@@ -293,7 +293,7 @@ scss.attribute.name {
 }
 
 style.value.number{
-  color: hsl(207, 38%, 91%);
+  color: hsl(253, 38%, 91%);
 }
 
 /* HTML */
