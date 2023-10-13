@@ -4,60 +4,60 @@ meta {
   -theme-accent-color: auto;
 }
 meta.window {
-  background-color: #13161c;
-  border-color: rgba(0, 0, 0, 0.2);
+  background-color: hsl(220, 19%, 9%);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.titlebar {
-  color: #fcfcfa;
-  background-color: #171a21;
-  border-color: rgba(0, 0, 0, 0.2);
+  color: hsl(60, 25%, 98%);
+  background-color: hsl(222, 18%, 11%);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.titlebar.inactive {
-  background-color: #171a21;
+  background-color: hsl(222, 18%, 11%);
 }
 meta.button {
-  background: linear-gradient(rgba(153, 153, 153, 0.25), rgba(127, 127, 127, 0.2));
-  border-color: rgba(0, 0, 0, 0.2);
-  color: #fcfcfa;
+  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  border-color: hsla(0, 0%, 0%, 0.2);
+  color: hsl(60, 25%, 98%);
 }
 meta.button.highlighted {
-  background: linear-gradient(rgba(153, 153, 153, 0.5), rgba(127, 127, 127, 0.1));
+  background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.button.selected {
-  background: linear-gradient(#78dce8, #21afc0);
-  color: #fcfcfa;
+  background: linear-gradient(hsl(186, 71%, 69%), hsl(186, 71%, 44%));
+  color: hsl(60, 25%, 98%);
 }
 meta.button.highlighted.selected {
-  background: linear-gradient(rgba(120, 220, 232, 0.75), rgba(33, 175, 192, 0.75));
-  color: #fcfcfa;
+  background: linear-gradient(hsla(186, 71%, 69%, 0.75), hsla(186, 71%, 44%, 0.75));
+  color: hsl(60, 25%, 98%);
 }
 meta.textfield {
-  background-color: #232323;
-  border-color: rgba(0, 0, 0, 0.2);
+  background-color: hsl(217, 20%, 14%);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.textfield.highlighted {
-  background-color: #232323;
-  border-color: rgba(153, 153, 153, 0.5);
+  background-color: hsl(0, 0%, 14%);
+  border-color: hsla(0, 0%, 60%, 0.5);
 }
 
 meta.document.button {
-  background: linear-gradient(rgba(153, 153, 153, 0.25), rgba(127, 127, 127, 0.2));
-  border-color: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.document.button.disabled {
   background-color: transparent;
-  color: rgba(162, 162, 162, 0.5);
+  color: hsla(0, 0%, 64%, 0.5);
 }
 meta.document.button.highlighted {
-  background: linear-gradient(rgba(153, 153, 153, 0.5), rgba(127, 127, 127, 0.1));
+  background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.document.textfield {
-  background-color: rgba(127, 127, 127, 0.15);
-  border-color: rgba(0, 0, 0, 0.2);
+  background-color: hsla(0, 0%, 50%, 0.15);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.document.textfield.highlighted {
-  background-color: #232323;
-  border-color: rgba(153, 153, 153, 0.5);
+  background-color: hsl(0, 0%, 14%);
+  border-color: hsla(0, 0%, 60%, 0.5);
 }
 
 /*
@@ -82,12 +82,12 @@ meta.document.button.highlighted {
 }
 
 meta.textfield {
-  background-color: #232323;
-  border-color: rgba(0, 0, 0, 0.2);
+  background-color: hsla(0, 0%, 14%, 1);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.textfield.highlighted {
-  background-color: #232323;
-  border-color: rgba(153, 153, 153, 0.5);
+  background-color: hsl(0, 0%, 14%);
+  border-color: hsla(0, 0%, 60%, 0.5);
 }
 
 /* Text */
@@ -103,7 +103,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-    background-color: rgba(33, 47, 69, 0.319);
+    background-color: hsla(217, 35%, 20%, 0.319);
 }
 
 /* Indentation Guides */
@@ -170,7 +170,7 @@ value.symbol {
 
 /* Identifiers */
 identifier {
-    color: color(display-p3 0.852 0.883 0.939);
+    color: rgb(215, 225, 241);
 }
 identifier.type {
     color: hsl(256, 51%, 68%);
@@ -239,7 +239,7 @@ markup.list.item {
     color: hsl(30, 50%, 80%);
 }
 markup.code {
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: hsla(0, 0%, 50%, 0.2);
 }
 
 /* Types */
@@ -340,7 +340,7 @@ javascript.identifier.method {
     color: hsl(339, 94%, 63%);
 }
 javascript.identifier.name {
-    color: #fff;
+    color: hsl(0, 0%, 100%);
 }
 javascript.identifier.argument {
     color: hsl(42, 86%, 81%);

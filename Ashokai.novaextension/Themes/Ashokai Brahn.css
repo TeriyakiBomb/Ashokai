@@ -5,63 +5,64 @@ meta {
 }
 meta.window {
   background-color: hsl(23, 17%, 11%);
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.titlebar {
-  color: hsl(60, 25%, 98%);
+  color: hsl(22, 25%, 98%);
   background-color: hsl(23, 19%, 11%);
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: hsla(22, 0%, 0%, 0.2);
 }
 meta.titlebar.inactive {
   background-color: hsl(22, 17%, 12%);
 }
 meta.button {
-  background: linear-gradient(rgba(153, 153, 153, 0.25), rgba(127, 127, 127, 0.2));
-  border-color: rgba(0, 0, 0, 0.2);
-  color: hsl(60, 25%, 98%);
+  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  border-color: hsla(0, 0%, 0%, 0.2);
+  color: hsl(22, 25%, 98%);
 }
 meta.button.highlighted {
-  background: linear-gradient(rgba(153, 153, 153, 0.5), rgba(127, 127, 127, 0.1));
+  background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.button.selected {
-  background: linear-gradient(#78dce8, #21afc0);
-  color: hsl(60, 25%, 98%);
+  background: linear-gradient(hsl(186, 71%, 69%), hsl(186, 71%, 44%));
+  color: hsl(22, 25%, 98%);
 }
 meta.button.highlighted.selected {
-  background: linear-gradient(rgba(120, 220, 232, 0.75), rgba(33, 175, 192, 0.75));
-  color: hsl(60, 25%, 98%);
+  background: linear-gradient(hsla(186, 71%, 69%, 0.75), hsla(186, 71%, 44%, 0.75));
+  color: hsl(22, 25%, 98%);
 }
 meta.textfield {
   background-color: hsl(22, 10%, 18%);
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: hsla(22, 100%, 0%, 0.2);
 }
 meta.textfield.highlighted {
-  background-color: #232323;
-  border-color: rgba(153, 153, 153, 0.5);
+  background-color: hsl(0, 0%, 14%);
+  border-color: hsla(22, 100%, 60%, 0.5);
 }
 
 meta.document.button {
-  background: linear-gradient(rgba(153, 153, 153, 0.25), rgba(127, 127, 127, 0.2));
-  border-color: rgba(0, 0, 0, 0.2);
+  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  border-color: hsla(22, 100%, 0%, 0.2);
 }
 meta.document.button.disabled {
   background-color: transparent;
-  color: rgba(162, 162, 162, 0.5);
+  color: hsla(0, 0%, 64%, 0.5);
 }
 meta.document.button.highlighted {
-  background: linear-gradient(rgba(153, 153, 153, 0.5), rgba(127, 127, 127, 0.1));
+  background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.document.textfield {
-  background-color: rgba(127, 127, 127, 0.15);
-  border-color: rgba(0, 0, 0, 0.2);
+  background-color: hsla(0, 0%, 50%, 0.15);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.document.textfield.highlighted {
-  background-color: #232323;
-  border-color: rgba(153, 153, 153, 0.5);
+  background-color: hsl(0, 0%, 14%);
+  border-color: hsla(0, 0%, 60%, 0.5);
 }
 
 /*
  * Document styles
+
  */
 meta.document {
     background-color: hsl(22, 18%, 14%);
@@ -83,11 +84,11 @@ meta.document.button.highlighted {
 
 meta.textfield {
   background-color: hsl(22, 23%, 11%);
-  border-color: rgba(0, 0, 0, 0.2);
+  border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.textfield.highlighted {
   background-color: hsl(22, 5%, 14%);
-  border-color: rgba(153, 153, 153, 0.5);
+  border-color: hsla(0, 0%, 60%, 0.5);
 }
 
 /* Text */
@@ -103,7 +104,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-    background-color: rgba(104, 72, 12, 0.082);
+    background-color: hsla(39, 79%, 23%, 0.082);
 }
 
 /* Indentation Guides */
@@ -128,7 +129,7 @@ keyword {
     color: hsl(207, 100%, 74%);
 }
 comment {
-    color: rgba(117, 98, 87, 0.86);
+    color: hsla(22, 15%, 40%, 0.86);
 }
 processing {
     color: hsl(210, 20%, 50%);
@@ -144,33 +145,33 @@ operator {
 }
 invalid {
     background-color: hsl(355, 82%, 96%);
-    color: hsl(60, 3%, 97%);
+    color: hsl(22, 3%, 97%);
 }
 link {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 
 }
 
 /* Values */
 value.boolean {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 value.null {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 value.number {
     color: hsl(270, 76%, 71%);
 }
 value.entity {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 value.symbol {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 
 /* Identifiers */
 identifier {
-    color: color(display-p3 0.852 0.883 0.939);
+    color: hsl(217, 48%, 89%);
 }
 identifier.type {
     color: hsl(256, 51%, 68%);
@@ -178,7 +179,7 @@ identifier.type {
 identifier.constant {
 }
 identifier.global, identifier.variable {
-    color: hsl(268, 34%, 100%);
+    color: hsl(22, 34%, 100%);
 }
 identifier.property,
 identifier.decorator,
@@ -187,7 +188,7 @@ identifier.method {
     color: hsl(339, 94%, 63%);
 }
 identifier.key {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 identifier.argument {
     color: hsl(39, 96%, 69%)
@@ -199,22 +200,22 @@ string {
     color: hsl(26, 100%, 64%);
 }
 string.key {
-    color: hsl(5, 65%, 100%);
+    color: hsl(22, 65%, 100%);
 }
 string-template {
-    color: hsl(27, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 string-template.value {
-    color: hsl(27, 72%, 100%);
+    color: hsl(22, 72%, 100%);
 }
 regex {
-    color: hsl(40, 72%, 100%);
+    color: hsl(22, 72%, 100%);
 }
 regex.escaped {
-    color: hsl(27, 72%, 99%);
+    color: hsl(22, 72%, 99%);
 }
 cdata {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 
 /* Markup */
@@ -233,13 +234,13 @@ markup.italic {
     font-style: italic;
 }
 markup.strikethrough {
-    color: hsl(0, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 markup.list.item {
     color: hsl(30, 50%, 80%);
 }
 markup.code {
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: hsla(0, 0%, 50%, 0.2);
 }
 
 /* Types */
@@ -250,14 +251,14 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
     font-weight: bold;
-    color: hsl(258, 40%, 87%);
+    color: hsl(22, 40%, 87%);
 }
 
 /* Members */
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: hsl(210, 10%, 100%);
+    color: hsl(22, 10%, 100%);
 }
 
 /* Tags */
@@ -277,7 +278,7 @@ tag.attribute.value {
     color: hsl(39, 96%, 69%);
 }
 tag.attribute.value.link {
-    color: hsl(210, 60%, 100%);
+    color: hsl(22, 60%, 100%);
 }
 
 /* Styles */
@@ -293,7 +294,7 @@ scss.attribute.name {
 }
 
 style.value.number{
-  color: hsl(207, 38%, 91%);
+  color: hsl(22, 38%, 91%);
 }
 
 /* HTML */
@@ -321,7 +322,7 @@ antlers.identifier.argument{
 }
 
 antlers.operator{
-  color: hsl(360, 100%, 97%);
+  color: hsl(22, 100%, 97%);
 }
 
 /* JS */
@@ -340,7 +341,7 @@ javascript.identifier.method {
     color: hsl(339, 94%, 63%);
 }
 javascript.identifier.name {
-    color: #fff;
+    color: hsl(22, 10%, 100%);
 }
 javascript.identifier.argument {
     color: hsl(42, 86%, 81%);
