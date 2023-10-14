@@ -286,7 +286,7 @@ style.at {
     color: hsl(25, 75%, 100%);
 }
 style.selector {
-    color: hsl(133, 70%, 60%);
+    color: hsl(143, 47%, 50%);
 }
 style.attribute.name,
 scss.attribute.name {
@@ -348,7 +348,7 @@ javascript.identifier.argument {
 }
 
 tag.attribute.name {
-    color: hsl(133, 70%, 60%);
+    color: hsl(143, 47%, 50%);
 }
 
 /* JSX */
@@ -357,11 +357,11 @@ jsx.tag {
     color: hsl(217, 32%, 45%);
 }
 jsx.tag.name {
-    color: hsl(133, 70%, 60%);
+    color: hsl(143, 47%, 50%);
 }
 
 /* Rust */
 
 definition.function{
-  color: hsl(133, 70%, 60%);
+  color: hsl(143, 47%, 50%);
 }
