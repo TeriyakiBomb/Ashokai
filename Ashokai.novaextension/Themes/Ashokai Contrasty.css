@@ -60,9 +60,7 @@ meta.document.textfield.highlighted {
   border-color: hsla(0, 0%, 60%, 0.5);
 }
 
-/*
- * Document styles
- */
+/* Document styles */
 meta.document {
     background-color: hsl(217, 18%, 12%);
     border-color: transparent;
@@ -120,12 +118,10 @@ meta.gutter.selected {
 }
 
 
-/*
- * Syntax styles
- */
+/* Syntax styles */
 
 keyword {
-    color: hsl(207, 100%, 74%);
+    color: hsl(207, 100%, 69%);
 }
 comment {
     color: hsl(217, 32%, 45%);
@@ -190,7 +186,7 @@ identifier.key {
     color: hsl(210, 60%, 100%);
 }
 identifier.argument {
-    color: hsl(39, 96%, 69%)
+    color: hsl(39, 96%, 69%);
     font-style: italic;
 }
 
@@ -202,16 +198,16 @@ string.key {
     color: hsl(5, 65%, 100%);
 }
 string-template {
-    color: hsl(27, 60%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 string-template.value {
-    color: hsl(27, 72%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 regex {
-    color: hsl(40, 72%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 regex.escaped {
-    color: hsl(27, 72%, 99%);
+    color: hsl(210, 60%, 100%);
 }
 cdata {
     color: hsl(210, 60%, 100%);
@@ -289,7 +285,7 @@ style.selector {
 }
 style.attribute.name,
 scss.attribute.name {
-    color: hsl(39, 100%, 88%);
+    color: hsl(39, 96%, 74%);
 }
 
 style.value.number{
@@ -313,7 +309,7 @@ html.tag.name {
 /* ANTLERS */
 
 antlers.tag.framework.variable.start, antlers.tag.framework.variable.end{
-  color: hsl(207, 100%, 74%);
+  color: hsl(207, 100%, 69%);
 }
 
 antlers.identifier.argument{
@@ -331,7 +327,7 @@ javascript.block {
 }
 
 javascript.definition.function {
-    color: hsl(207, 100%, 74%);
+    color: hsl(207, 100%, 69%);
 }
 javascript.definition.function.anonymous {
     color: hsl(339, 100%, 56%);
