@@ -108,7 +108,7 @@ meta.cursor {
 
 /* Indentation Guides */
 meta.indentguide {
-    border-color: hsl(217, 40%, 30%);
+    border-color: hsl(217, 32%, 32%);
 }
 
 /* Gutter */
@@ -128,7 +128,7 @@ keyword {
     color: hsl(207, 100%, 74%);
 }
 comment {
-    color: hsl(217, 32%, 45%);
+    color: hsl(217, 32%, 48%);
 }
 processing {
     color: hsl(210, 20%, 50%);
@@ -170,7 +170,7 @@ value.symbol {
 
 /* Identifiers */
 identifier {
-    color: hsl(217, 48%, 89%);
+    color: hsl(210, 60%, 100%);
 }
 identifier.type {
     color: hsl(256, 51%, 68%);
@@ -195,6 +195,7 @@ identifier.argument {
 }
 
 /* Strings */
+
 string {
     color: hsl(26, 100%, 64%);
 }
@@ -202,16 +203,16 @@ string.key {
     color: hsl(5, 65%, 100%);
 }
 string-template {
-    color: hsl(27, 60%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 string-template.value {
-    color: hsl(27, 72%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 regex {
-    color: hsl(40, 72%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 regex.escaped {
-    color: hsl(27, 72%, 99%);
+    color: hsl(210, 60%, 100%);
 }
 cdata {
     color: hsl(210, 60%, 100%);
@@ -233,7 +234,7 @@ markup.italic {
     font-style: italic;
 }
 markup.strikethrough {
-    color: hsl(0, 60%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 markup.list.item {
     color: hsl(30, 50%, 80%);
@@ -257,7 +258,7 @@ definition.struct struct.name {
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-    color: hsl(210, 10%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 
 /* Tags */
@@ -265,7 +266,7 @@ tag {
     color: hsl(166, 40%, 78%);
 }
 tag.bracket{
-    color: hsl(217, 32%, 45%);
+    color: hsl(217, 32%, 48%);
 }
 tag.framework {
     color: hsl(311, 73%, 70%);
@@ -275,6 +276,7 @@ tag.attribute.name {
 }
 tag.attribute.value {
     color: hsl(39, 96%, 69%);
+
 }
 tag.attribute.value.link {
     color: hsl(210, 60%, 100%);
@@ -282,7 +284,7 @@ tag.attribute.value.link {
 
 /* Styles */
 style.at {
-    color: hsl(25, 75%, 100%);
+    color: hsl(210, 60%, 100%);
 }
 style.selector {
     color: hsl(133, 73%, 70%);
@@ -299,7 +301,8 @@ style.value.number{
 /* HTML */
 
 html.tag {
-    color: hsl(217, 32%, 45%);
+    color: hsl(217, 32%, 48%);
+
 }
 
 tag.name {
@@ -340,12 +343,11 @@ javascript.identifier.method {
     color: hsl(339, 94%, 63%);
 }
 javascript.identifier.name {
-    color: hsl(0, 0%, 100%);
+    color: hsl(360, 100%, 97%);
 }
 javascript.identifier.argument {
-    color: hsl(42, 86%, 81%);
+    color: hsl(30, 50%, 80%);
 }
-
 tag.attribute.name {
     color: hsl(133, 73%, 70%);
 }
@@ -353,7 +355,7 @@ tag.attribute.name {
 /* JSX */
 
 jsx.tag {
-    color: hsl(217, 32%, 45%);
+    color: hsl(217, 32%, 48%);
 }
 jsx.tag.name {
     color: hsl(133, 73%, 70%);
