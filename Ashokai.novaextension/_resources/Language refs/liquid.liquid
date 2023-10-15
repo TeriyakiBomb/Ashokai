@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Twig Template Demo</title>
+    <title>Liquid Template Demo</title>
 </head>
 <body>
-    <h1 class="stuff">Twig Template Demo</h1>
+    <h1>Liquid Template Demo</h1>
 
     {% if age >= 18 %}
         <p>Welcome, {{ name }}! You are eligible to vote.</p>
@@ -18,14 +18,13 @@
         {% endfor %}
     </ul>
 
-    {% set result = calculateSum(10, 20) %}
+    {% assign result = calculateSum(10, 20) %}
     <p>The sum of 10 and 20 is {{ result }}.</p>
 
-    {% block footer %}
-        <footer>
-            <p>This is the footer section.</p>
-        </footer>
-    {% endblock %}
+    {% comment %}
+        This is a comment in Liquid.
+    {% endcomment %}
 
+    {% include 'footer' %}
 </body>
 </html>
