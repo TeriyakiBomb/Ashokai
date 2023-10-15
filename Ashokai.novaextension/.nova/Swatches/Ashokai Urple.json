@@ -1,8 +1,18 @@
 {
   "swatches" : [
     {
-      "color" : "#fee9c1ff",
-      "name" : "Oasis",
+      "color" : "#565775ff",
+      "name" : "Comet",
+      "space" : "srgb"
+    },
+    {
+      "color" : "#f8dfa4ff",
+      "name" : "Champagne",
+      "space" : "srgb"
+    },
+    {
+      "color" : "#554e97ff",
+      "name" : "Governor Bay",
       "space" : "srgb"
     },
     {
@@ -16,8 +26,8 @@
       "space" : "srgb"
     },
     {
-      "color" : "#5371a1ff",
-      "name" : "Waikawa Grey",
+      "color" : "#4e6a97ff",
+      "name" : "UCLA Blue",
       "space" : "srgb"
     },
     {
@@ -81,17 +91,17 @@
       "space" : "srgb"
     },
     {
-      "color" : "#00368eff",
-      "name" : "Mike Blue",
+      "color" : "#493a77ff",
+      "name" : "Gigas",
       "space" : "srgb"
     },
     {
-      "color" : "#2d456bff",
-      "name" : "San Juan",
+      "color" : "#3b2d6bff",
+      "name" : "Jacarta",
       "space" : "srgb"
     },
     {
-      "color" : "#dfe8f0ff",
+      "color" : "#efeaffff",
       "name" : "Base",
       "space" : "srgb"
     }
