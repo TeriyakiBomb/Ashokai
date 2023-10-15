@@ -88,7 +88,7 @@ meta.textfield.highlighted {
   border-color: hsla(0, 0%, 60%, 0.5);
 }
 
-/* Text */
+/* Text ------------------------------- */
 meta.text {
   color: hsl(207, 38%, 91%);
 }
@@ -117,7 +117,7 @@ meta.gutter.selected {
   color: hsl(217, 27%, 62%);
 }
 
-/* Syntax styles */
+/* Syntax styles ------------------------------- */
 keyword {
   color: hsl(207, 100%, 74%);
 }
@@ -131,7 +131,7 @@ declaration {
   color: hsl(210, 20%, 50%);
 }
 bracket {
-  color: hsl(210, 20%, 52%);
+  color: hsl(210, 20%, 50%);
 }
 operator {
   color: hsl(339, 94%, 63%);
@@ -239,7 +239,7 @@ definition.enum enum.name,
 definition.union union.name,
 definition.struct struct.name {
   font-weight: bold;
-  color: hsl(258, 40%, 87%);
+  color: hsl(207, 38%, 91%);
 }
 
 /* Members */
@@ -297,7 +297,7 @@ html.tag.name {
 
 /* JS */
 javascript.block {
-  color: hsl(217, 27%, 59%);
+  color: hsl(210, 20%, 50%);
 }
 javascript.definition.function {
   color: hsl(207, 100%, 74%);

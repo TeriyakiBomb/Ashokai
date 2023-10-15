@@ -222,13 +222,16 @@ markup.italic {
   font-style: italic;
 }
 markup.strikethrough {
-  color: hsl(22, 34%, 90%);
+  color: hsl(246, 32%, 50%);
 }
 markup.list.item {
   color: hsl(30, 50%, 80%);
 }
 markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
+}
+markup.link {
+  color: hsl(39, 96%, 69%);
 }
 
 /* Types */

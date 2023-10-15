@@ -208,27 +208,30 @@ cdata {
 
 /* Markup */
 markup.heading {
-  color: hsl(339, 100%, 56%);
+  color: hsl(339, 94%, 63%);
 }
 markup.line {
   color: hsl(60, 50%, 75%);
 }
 markup.bold {
-  color: hsl(196, 75%, 76%);
+  color: hsl(196, 60%, 76%);
   font-weight: bold;
 }
 markup.italic {
-  color: hsl(94, 50%, 70%);
+  color: hsl(94, 40%, 80%);
   font-style: italic;
 }
 markup.strikethrough {
-  color: hsl(0, 0%, 100%);
+  color: hsl(246, 32%, 50%);
 }
 markup.list.item {
-  color: hsl(30, 70%, 80%);
+  color: hsl(30, 50%, 80%);
 }
 markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
+}
+markup.link {
+  color: hsl(39, 96%, 69%);
 }
 
 /* Types */

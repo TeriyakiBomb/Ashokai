@@ -88,7 +88,7 @@ meta.textfield.highlighted {
   border-color: hsla(0, 0%, 60%, 0.5);
 }
 
-/* Text */
+/* Text ------------------------------- */
 meta.text {
   color: hsl(253, 100%, 96%);
 }
@@ -117,7 +117,7 @@ meta.gutter.selected {
   color: hsl(254, 31%, 46%);
 }
 
-/* Syntax styles */
+/* Syntax styles ------------------------------- */
 keyword {
   color: hsl(207, 100%, 74%);
 }
@@ -125,13 +125,13 @@ comment {
   color: hsl(238, 15%, 40%);
 }
 processing {
-  color: hsl(210, 20%, 50%);
+  color: hsl(211, 20%, 50%);
 }
 declaration {
-  color: hsl(210, 20%, 50%);
+  color: hsl(211, 20%, 50%);
 }
 bracket {
-  color: hsl(210, 20%, 52%);
+  color: hsl(211, 20%, 50%);
 }
 operator {
   color: hsl(339, 94%, 63%);
@@ -222,13 +222,16 @@ markup.italic {
   font-style: italic;
 }
 markup.strikethrough {
-  color: hsl(253, 100%, 96%);
+  color: hsl(246, 32%, 45%);
 }
 markup.list.item {
   color: hsl(30, 50%, 80%);
 }
 markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
+}
+markup.link {
+  color: hsl(39, 96%, 69%);
 }
 
 /* Types */
@@ -278,7 +281,7 @@ style.selector {
 }
 style.attribute.name,
 scss.attribute.name {
-  color: hsl(39, 74%, 62%);
+  color: hsl(39, 96%, 69%);
 }
 style.value.number {
   color: hsl(253, 100%, 96%);
@@ -297,7 +300,7 @@ html.tag.name {
 
 /* JS */
 javascript.block {
-  color: hsl(217, 27%, 59%);
+  color: hsl(211, 20%, 50%);
 }
 javascript.definition.function {
   color: hsl(207, 100%, 74%);
