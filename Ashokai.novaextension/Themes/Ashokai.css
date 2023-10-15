@@ -8,7 +8,7 @@ meta.window {
   border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.titlebar {
-  color: hsl(60, 25%, 98%);
+  color: hsl(207, 38%, 91%);
   background-color: hsl(222, 18%, 11%);
   border-color: hsla(0, 0%, 0%, 0.2);
 }
@@ -18,21 +18,21 @@ meta.titlebar.inactive {
 meta.button {
   background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
   border-color: hsla(0, 0%, 0%, 0.2);
-  color: hsl(60, 25%, 98%);
+  color: hsl(207, 38%, 91%);
 }
 meta.button.highlighted {
   background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.button.selected {
   background: linear-gradient(hsl(186, 71%, 69%), hsl(186, 71%, 44%));
-  color: hsl(60, 25%, 98%);
+  color: hsl(207, 38%, 91%);
 }
 meta.button.highlighted.selected {
   background: linear-gradient(
     hsla(186, 71%, 69%, 0.75),
     hsla(186, 71%, 44%, 0.75)
   );
-  color: hsl(60, 25%, 98%);
+  color: hsl(207, 38%, 91%);
 }
 meta.textfield {
   background-color: hsl(217, 20%, 14%);
@@ -42,7 +42,6 @@ meta.textfield.highlighted {
   background-color: hsl(0, 0%, 14%);
   border-color: hsla(0, 0%, 60%, 0.5);
 }
-
 meta.document.button {
   background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
   border-color: hsla(0, 0%, 0%, 0.2);
@@ -68,7 +67,6 @@ meta.document {
   background-color: hsl(217, 18%, 14%);
   border-color: transparent;
 }
-
 meta.document.button {
   background-color: hsl(217, 33%, 22%);
   color: hsl(217, 25%, 70%);
@@ -81,7 +79,6 @@ meta.document.button.disabled {
 meta.document.button.highlighted {
   background-color: hsl(217, 33%, 25%);
 }
-
 meta.textfield {
   background-color: hsla(0, 0%, 14%, 1);
   border-color: hsla(0, 0%, 0%, 0.2);
@@ -93,7 +90,7 @@ meta.textfield.highlighted {
 
 /* Text */
 meta.text {
-  color: hsl(217, 15%, 90%);
+  color: hsl(207, 38%, 91%);
 }
 meta.text.invisible {
   color: hsl(217, 40%, 30%);
@@ -121,7 +118,6 @@ meta.gutter.selected {
 }
 
 /* Syntax styles */
-
 keyword {
   color: hsl(207, 100%, 74%);
 }
@@ -142,41 +138,36 @@ operator {
 }
 invalid {
   background-color: hsl(355, 82%, 96%);
-  color: hsl(60, 3%, 97%);
+  color: hsl(207, 38%, 91%);
 }
 link {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 
 /* Values */
 value.boolean {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 value.null {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 value.number {
   color: hsl(270, 76%, 71%);
 }
 value.entity {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 value.symbol {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 
 /* Identifiers */
-identifier {
-  color: hsl(210, 60%, 100%);
-}
 identifier.type {
   color: hsl(256, 51%, 68%);
 }
-identifier.constant {
-}
 identifier.global,
 identifier.variable {
-  color: hsl(268, 34%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 identifier.property,
 identifier.decorator,
@@ -185,7 +176,7 @@ identifier.method {
   color: hsl(339, 94%, 63%);
 }
 identifier.key {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 identifier.argument {
   color: hsl(39, 96%, 69%);
@@ -193,27 +184,26 @@ identifier.argument {
 }
 
 /* Strings */
-
 string {
   color: hsl(26, 100%, 64%);
 }
 string.key {
-  color: hsl(5, 65%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 string-template {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 string-template.value {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 regex {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 regex.escaped {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 cdata {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 
 /* Markup */
@@ -232,7 +222,7 @@ markup.italic {
   font-style: italic;
 }
 markup.strikethrough {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 markup.list.item {
   color: hsl(30, 50%, 80%);
@@ -256,7 +246,7 @@ definition.struct struct.name {
 definition.property property.name,
 definition.function function.name,
 definition.method method.name {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 
 /* Tags */
@@ -276,12 +266,12 @@ tag.attribute.value {
   color: hsl(39, 96%, 69%);
 }
 tag.attribute.value.link {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 
 /* Styles */
 style.at {
-  color: hsl(210, 60%, 100%);
+  color: hsl(207, 38%, 91%);
 }
 style.selector {
   color: hsl(133, 73%, 70%);
@@ -290,7 +280,6 @@ style.attribute.name,
 scss.attribute.name {
   color: hsl(39, 100%, 88%);
 }
-
 style.value.number {
   color: hsl(207, 38%, 91%);
 }
@@ -299,34 +288,17 @@ style.value.number {
 html.tag {
   color: hsl(217, 32%, 48%);
 }
-
 tag.name {
   color: hsl(339, 94%, 63%);
 }
-
 html.tag.name {
   color: hsl(339, 94%, 63%);
-}
-
-/* ANTLERS */
-antlers.tag.framework.variable.start,
-antlers.tag.framework.variable.end {
-  color: hsl(207, 100%, 74%);
-}
-
-antlers.identifier.argument {
-  color: hsl(272, 100%, 72%);
-}
-
-antlers.operator {
-  color: hsl(360, 100%, 97%);
 }
 
 /* JS */
 javascript.block {
   color: hsl(217, 27%, 59%);
 }
-
 javascript.definition.function {
   color: hsl(207, 100%, 74%);
 }
@@ -337,13 +309,21 @@ javascript.identifier.method {
   color: hsl(339, 94%, 63%);
 }
 javascript.identifier.name {
-  color: hsl(360, 100%, 97%);
+  color: hsl(207, 38%, 91%);
 }
 javascript.identifier.argument {
   color: hsl(30, 50%, 80%);
 }
 tag.attribute.name {
   color: hsl(133, 73%, 70%);
+}
+
+/* TS */
+typescript.identifier.constant.name {
+  color: hsl(133, 73%, 70%);
+}
+typescript.identifier.property {
+  color: hsl(253, 100%, 96%);
 }
 
 /* JSX */
@@ -355,11 +335,40 @@ jsx.tag.name {
 }
 
 /* Rust */
-definition.function {
+rust.definition.function {
   color: hsl(133, 73%, 70%);
 }
 
 /* Astro */
-astro.block.frontmatter {
+astro.block.frontmatter,
+astro.tag.attribute.operator,
+astro.tag.open,
+astro.tag.close {
   color: hsl(217, 32%, 48%);
+}
+astro.tag.open.name,
+astro.tag.close.name {
+  color: hsl(339, 94%, 63%);
+}
+astro.value.variable.bracket {
+  color: hsl(207, 100%, 74%);
+}
+
+/* Antlers */
+antlers.tag.framework.variable.start,
+antlers.tag.framework.variable.end {
+  color: hsl(207, 100%, 74%);
+}
+antlers.identifier.argument {
+  color: hsl(311, 73%, 70%);
+}
+
+/* Twig and liquid */
+twig.tag.framework,
+liquid.tag.framework {
+  color: hsl(207, 100%, 74%);
+}
+twig.keyword,
+liquid.keyword {
+  color: hsl(311, 73%, 70%);
 }
