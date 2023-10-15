@@ -35,12 +35,12 @@ meta.button.highlighted.selected {
   color: hsl(22, 34%, 90%);
 }
 meta.textfield {
-  background-color: hsl(22, 10%, 18%);
+  background-color: hsl(22, 10%, 16%);
   border-color: hsla(22, 100%, 0%, 0.2);
 }
 meta.textfield.highlighted {
-  background-color: hsl(0, 0%, 14%);
-  border-color: hsla(22, 100%, 60%, 0.5);
+  background-color: hsl(22, 10%, 18%);
+  border-color: hsl(22, 10%, 25%);
 }
 meta.document.button {
   background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
@@ -58,7 +58,7 @@ meta.document.textfield {
   border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.document.textfield.highlighted {
-  background-color: hsl(0, 0%, 14%);
+  background-color: hsl(22, 10%, 15%);
   border-color: hsla(0, 0%, 60%, 0.5);
 }
 
