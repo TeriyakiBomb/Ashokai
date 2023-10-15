@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twig Template Demo</title>
+</head>
+<body>
+    <h1>Twig Template Demo</h1>
+
+    {% if age >= 18 %}
+        <p>Welcome, {{ name }}! You are eligible to vote.</p>
+    {% else %}
+        <p>Sorry, {{ name }}! You are not eligible to vote yet.</p>
+    {% endif %}
+
+    <ul>
+        {% for number in numbers %}
+            <li>{{ number }}</li>
+        {% endfor %}
+    </ul>
+
+    {% set result = calculateSum(10, 20) %}
+    <p>The sum of 10 and 20 is {{ result }}.</p>
+
+    {% block footer %}
+        <footer>
+            <p>This is the footer section.</p>
+        </footer>
+    {% endblock %}
+</body>
+</html>
