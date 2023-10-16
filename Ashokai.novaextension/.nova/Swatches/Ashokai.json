@@ -1,99 +1,99 @@
 {
-  "swatches": [
+  "swatches" : [
     {
-      "color": "#fee9c1ff",
-      "name": "Oasis",
-      "space": "srgb"
+      "color" : "#fee9c1ff",
+      "name" : "Oasis",
+      "space" : "srgb"
     },
     {
-      "color": "#7aea92ff",
-      "name": "Granny Smith Apple",
-      "space": "srgb"
+      "color" : "#e5ccb2ff",
+      "name" : "Spanish White",
+      "space" : "srgb"
     },
     {
-      "color": "#ea7ad5ff",
-      "name": "French Mauve",
-      "space": "srgb"
+      "color" : "#9dd2e6ff",
+      "name" : "Regent St Blue",
+      "space" : "srgb"
     },
     {
-      "color": "#5371a1ff",
-      "name": "Waikawa Grey",
-      "space": "srgb"
+      "color" : "#b0ddd2ff",
+      "name" : "Cruise",
+      "space" : "srgb"
     },
     {
-      "color": "#b0ddd2ff",
-      "name": "Cruise",
-      "space": "srgb"
+      "color" : "#dfdf9fff",
+      "name" : "Mint Julep",
+      "space" : "srgb"
     },
     {
-      "color": "#e5ccb2ff",
-      "name": "Spanish White",
-      "space": "srgb"
+      "color" : "#c9e0b7ff",
+      "name" : "Green Tea",
+      "space" : "srgb"
     },
     {
-      "color": "#c9e0b7ff",
-      "name": "Green Tea",
-      "space": "srgb"
+      "color" : "#7aea92ff",
+      "name" : "Granny Smith Apple",
+      "space" : "srgb"
     },
     {
-      "color": "#9dd2e6ff",
-      "name": "Regent St Blue",
-      "space": "srgb"
+      "color" : "#fbc664ff",
+      "name" : "Rob Roy",
+      "space" : "srgb"
     },
     {
-      "color": "#dfdf9fff",
-      "name": "Mint Julep",
-      "space": "srgb"
+      "color" : "#ff9647ff",
+      "name" : "Tan Hide",
+      "space" : "srgb"
     },
     {
-      "color": "#ff9647ff",
-      "name": "Tan Hide",
-      "space": "srgb"
+      "color" : "#ea7ad5ff",
+      "name" : "French Mauve",
+      "space" : "srgb"
     },
     {
-      "color": "#fbc664ff",
-      "name": "Rob Roy",
-      "space": "srgb"
+      "color" : "#f94786ff",
+      "name" : "Dark Pink",
+      "space" : "srgb"
     },
     {
-      "color": "#9983d7ff",
-      "name": "Lilac Blush",
-      "space": "srgb"
+      "color" : "#9983d7ff",
+      "name" : "Lilac Blush",
+      "space" : "srgb"
     },
     {
-      "color": "#b57cedff",
-      "name": "Soft Purple",
-      "space": "srgb"
+      "color" : "#b57cedff",
+      "name" : "Soft Purple",
+      "space" : "srgb"
     },
     {
-      "color": "#f94786ff",
-      "name": "Dark Pink",
-      "space": "srgb"
+      "color" : "#7ac3ffff",
+      "name" : "Jordy Blue",
+      "space" : "srgb"
     },
     {
-      "color": "#667f99ff",
-      "name": "Lynch",
-      "space": "srgb"
+      "color" : "#667f99ff",
+      "name" : "Lynch",
+      "space" : "srgb"
     },
     {
-      "color": "#7ac3ffff",
-      "name": "Jordy Blue",
-      "space": "srgb"
+      "color" : "#5371a1ff",
+      "name" : "Waikawa Grey",
+      "space" : "srgb"
     },
     {
-      "color": "#00368eff",
-      "name": "Mike Blue",
-      "space": "srgb"
+      "color" : "#2d456bff",
+      "name" : "San Juan",
+      "space" : "srgb"
     },
     {
-      "color": "#2d456bff",
-      "name": "San Juan",
-      "space": "srgb"
+      "color" : "#00368eff",
+      "name" : "Mike Blue",
+      "space" : "srgb"
     },
     {
-      "color": "#dfe8f0ff",
-      "name": "Base",
-      "space": "srgb"
+      "color" : "#dfe8f0ff",
+      "name" : "Base",
+      "space" : "srgb"
     }
   ]
 }
