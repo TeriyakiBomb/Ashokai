@@ -1,3 +1,7 @@
+## Version 1.6.1 ✍🏾
+
+Improved markdown highlighting
+
 ## Version 1.6 📚
 
 Testing with more languages for consistency, including:
