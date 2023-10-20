@@ -375,3 +375,34 @@ twig.keyword,
 liquid.keyword {
   color: hsl(311, 73%, 70%);
 }
+
+/* Elixir WIP */
+elixir.definition.function {
+  color: hsl(339, 94%, 63%);
+}
+elixir.import,
+elixir.import.identifier.symbol {
+  color: hsl(143, 47%, 50%);
+}
+elixir.identifier.constant,
+elixir.value.list {
+  color: hsl(30, 50%, 80%);
+}
+elixir.identifier.module.submodule {
+  color: hsl(22, 34%, 90%);
+}
+elixir.identifier {
+  color: hsl(39, 96%, 69%);
+}
+elixir.keyword {
+  color: hsl(339, 94%, 63%);
+}
+elixir.definition.function {
+  color: hsl(207, 100%, 74%);
+}
+elixir.string.block {
+  color: hsl(210, 20%, 50%);
+}
+elixir.identifier.function.name {
+  color: hsl(256, 51%, 68%);
+}

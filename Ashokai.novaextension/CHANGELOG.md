@@ -1,3 +1,7 @@
+## Version 1.6.2 🔮
+
+Added initial Elixir highlighting
+
 ## Version 1.6.1 ✍🏾
 
 Improved markdown highlighting

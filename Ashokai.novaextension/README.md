@@ -1,6 +1,6 @@
 # Ashokai 🍭
 
-**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for PHP, JSX, Astro, Twig, Liquid and Statamic Antlers.
+**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for Elixir, PHP, JSX, Astro, Twig, Liquid and Statamic Antlers.
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/ashokai-cover.png)
 
