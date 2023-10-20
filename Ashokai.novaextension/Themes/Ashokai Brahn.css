@@ -377,7 +377,9 @@ liquid.keyword {
 }
 
 /* Elixir WIP */
-elixir.definition.function {
+elixir.definition.function,
+elixir.identifier.name,
+elixir.keyword {
   color: hsl(339, 94%, 63%);
 }
 elixir.import,
@@ -393,9 +395,6 @@ elixir.identifier.module.submodule {
 }
 elixir.identifier {
   color: hsl(39, 96%, 69%);
-}
-elixir.keyword {
-  color: hsl(339, 94%, 63%);
 }
 elixir.definition.function {
   color: hsl(207, 100%, 74%);
