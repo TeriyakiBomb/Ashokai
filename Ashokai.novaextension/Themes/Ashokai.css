@@ -230,6 +230,9 @@ markup.list.item {
 markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
 }
+markup.link {
+  color: hsl(39, 96%, 69%);
+}
 
 /* Types */
 definition.class class.name,
@@ -401,4 +404,104 @@ elixir.string.block {
 }
 elixir.identifier.function.name {
   color: hsl(256, 51%, 68%);
+}
+
+/*  PHP  */
+
+keyword.modifier {
+  color: hsl(133, 73%, 70%);
+}
+/* Advanced PHP */
+advphp.static.condition {
+  /* if, else, elseif, foreach, ... */
+  color: hsl(207, 100%, 74%);
+}
+advphp.static.processor {
+  /* echo, return, print, ... */
+  color: hsl(207, 100%, 74%);
+}
+advphp.static.declaration {
+  /* new, public, private, ... */
+  color: hsl(133, 73%, 70%);
+}
+advphp.static.import {
+  /* include, require, ... */
+  color: hsl(207, 100%, 74%);
+}
+advphp.static.wordOperator {
+  /* AND, OR, XOR, ... */
+  color: hsl(339, 94%, 63%);
+}
+advphp.identifier.variable.prefix {
+  color: hsl(311, 73%, 70%);
+}
+advphp.identifier.variable.name {
+  /* $variable */
+  color: hsl(30, 50%, 80%);
+}
+advphp.identifier.variable.this {
+  color: hsl(339, 94%, 63%);
+}
+advphp.wp.keywords,
+advphp.curl.keywords,
+advphp.static.constant {
+  /* ABSPATH, WP_ADMIN, ... */
+  color: hsl(30, 50%, 80%);
+}
+advphp.sql.keywords {
+  /* SELECT, FROM, WHERE, ... */
+  color: hsl(207, 100%, 74%);
+}
+advphp.operator {
+  /* +, -, /, >, ... */
+  color: hsl(339, 94%, 63%);
+}
+advphp.semicolon {
+  /* ; */
+  color: hsl(210, 20%, 50%);
+}
+advphp.identifier.function.keyword {
+  /* function */
+}
+advphp.identifier.function.name {
+  /* my_function() */
+  color: hsl(207, 100%, 74%);
+}
+advphp.identifier.parameter.prefix {
+  /* my_function($parameter) {} */
+  color: hsl(311, 73%, 70%);
+}
+advphp.identifier.parameter {
+  /* my_function($parameter) {} */
+  color: hsl(256, 51%, 68%);
+}
+advphp.identifier.parameter.name {
+  /* my_function($parameter) {} */
+  color: hsl(30, 50%, 80%);
+}
+advphp.identifier.object.name {
+  /* Object:: */
+  color: hsl(256, 51%, 68%);
+}
+advphp.definition.namespace {
+  /* Name\Space */
+  color: hsl(210, 20%, 50%);
+}
+advphp.string {
+  color: hsl(207, 38%, 91%);
+}
+advphp.string.singleQuote {
+  color: hsl(26, 100%, 64%);
+}
+advphp.value.string,
+advphp.string.doubleQuote {
+  /* "string", 'string' */
+  color: hsl(30, 50%, 80%);
+}
+advphp.string.backTic {
+  /* `string` */
+  color: hsl(30, 50%, 80%);
+}
+advphp.tag.framework {
+  color: hsl(311, 73%, 70%);
 }
