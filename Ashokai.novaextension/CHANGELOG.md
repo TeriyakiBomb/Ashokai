@@ -1,3 +1,15 @@
+## Version 1.7 🐘🐘🐘
+
+### NEW! 🌟
+
+Added support for [Advanced PHP](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/)
+
+### FIXES! 🐞
+
+Markdown fixes
+
+Submitted some changes to Nova ElixirLS repo that'll improve .heex support, hopefully more elixir highlighting coming soon.
+
 ## Version 1.6.3 🔮
 
 Added initial Elixir highlighting
@@ -8,7 +20,7 @@ Improved markdown highlighting
 
 ## Version 1.6 📚
 
-Testing with more languages for consistency, including:
+Improvements to overall highlighting, tested with more languages for consistency, including:
 
 - Blade
 - C#
