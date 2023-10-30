@@ -109,7 +109,7 @@ meta.text.selected {
 
 /* Cursor */
 meta.cursor {
-  background-color: hsl(32, 20%, 85%);
+  background-color: hsla(32, 20%, 90%, 0.7);
 }
 
 /* Indentation Guides */
@@ -133,10 +133,10 @@ comment {
   color: hsl(35, 42%, 70%);
 }
 processing {
-  color: hsl(210, 20%, 50%);
+  color: hsl(210, 20%, 43%);
 }
 declaration {
-  color: hsl(210, 20%, 50%);
+  color: hsl(210, 20%, 43%);
 }
 bracket {
   color: hsl(27, 44%, 70%);
@@ -233,7 +233,7 @@ markup.strikethrough {
   color: hsl(27, 38%, 38%);
 }
 markup.list.item {
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
@@ -308,7 +308,7 @@ html.tag.name {
 
 /* JS */
 javascript.block {
-  color: hsl(210, 20%, 50%);
+  color: hsl(210, 20%, 43%);
 }
 javascript.definition.function {
   color: hsl(205, 100%, 38%);
@@ -323,7 +323,7 @@ javascript.identifier.name {
   color: hsl(27, 38%, 38%);
 }
 javascript.identifier.argument {
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 tag.attribute.name {
   color: hsl(133, 73%, 30%);
@@ -396,7 +396,7 @@ elixir.import.identifier.symbol {
 }
 elixir.identifier.constant,
 elixir.value.list {
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 elixir.identifier.module.submodule {
   color: hsl(253, 100%, 96%);
@@ -408,7 +408,7 @@ elixir.definition.function {
   color: hsl(205, 100%, 38%);
 }
 elixir.string.block {
-  color: hsl(210, 20%, 50%);
+  color: hsl(210, 20%, 43%);
 }
 elixir.identifier.function.name {
   color: hsl(256, 51%, 68%);
@@ -445,7 +445,7 @@ advphp.identifier.variable.prefix {
 }
 advphp.identifier.variable.name {
   /* $variable */
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 advphp.identifier.variable.this {
   color: hsl(339, 94%, 45%);
@@ -454,7 +454,7 @@ advphp.wp.keywords,
 advphp.curl.keywords,
 advphp.static.constant {
   /* ABSPATH, WP_ADMIN, ... */
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 advphp.sql.keywords {
   /* SELECT, FROM, WHERE, ... */
@@ -466,7 +466,7 @@ advphp.operator {
 }
 advphp.semicolon {
   /* ; */
-  color: hsl(210, 20%, 50%);
+  color: hsl(210, 20%, 43%);
 }
 advphp.identifier.function.keyword {
   /* function */
@@ -485,7 +485,7 @@ advphp.identifier.parameter {
 }
 advphp.identifier.parameter.name {
   /* my_function($parameter) {} */
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 advphp.identifier.object.name {
   /* Object:: */
@@ -493,7 +493,7 @@ advphp.identifier.object.name {
 }
 advphp.definition.namespace {
   /* Name\Space */
-  color: hsl(210, 20%, 50%);
+  color: hsl(210, 20%, 43%);
 }
 advphp.string {
   color: hsl(27, 38%, 38%);
@@ -504,11 +504,11 @@ advphp.string.singleQuote {
 advphp.value.string,
 advphp.string.doubleQuote {
   /* "string", 'string' */
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 advphp.string.backTic {
   /* `string` */
-  color: hsl(30, 50%, 80%);
+  color: hsl(30, 100%, 43%);
 }
 advphp.tag.framework {
   color: hsl(311, 73%, 45%);
