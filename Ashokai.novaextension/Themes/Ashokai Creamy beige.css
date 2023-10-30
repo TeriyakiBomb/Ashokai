@@ -21,7 +21,7 @@ meta.button {
     rgba(163, 140, 110, 0.25)
   );
   border-color: rgba(163, 140, 110, 0.25);
-  color: #3b3630;
+  color: hsl(33, 10%, 40%);
 }
 meta.button.highlighted {
   background: linear-gradient(
