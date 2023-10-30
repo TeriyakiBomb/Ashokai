@@ -514,3 +514,15 @@ advphp.string.backTic {
 advphp.tag.framework {
   color: hsl(311, 73%, 45%);
 }
+
+/* SQL */
+sql.identifier {
+  color: hsl(339, 94%, 43%);
+}
+sql.semicolon {
+  color: hsl(210, 20%, 43%);
+}
+sql.operator.equals,
+sql.bracket {
+  color: hsl(39, 100%, 45%);
+}
