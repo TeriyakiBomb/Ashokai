@@ -1,0 +1,515 @@
+meta {
+  -theme-interface-style: light;
+  -theme-vibrancy: none;
+  -theme-accent-color: auto;
+}
+meta.window {
+  background-color: hsl(32, 32%, 87%);
+  border-color: rgba(163, 140, 110, 0.25);
+}
+meta.titlebar {
+  color: hsl(33, 100%, 33%);
+  background: hsl(32, 32%, 85%);
+  border-color: rgba(163, 140, 110, 0.25);
+}
+meta.titlebar.inactive {
+  background-color: #ebe3d8;
+}
+meta.button {
+  background: linear-gradient(
+    rgba(192, 166, 132, 0.25),
+    rgba(163, 140, 110, 0.25)
+  );
+  border-color: rgba(163, 140, 110, 0.25);
+  color: #3b3630;
+}
+meta.button.highlighted {
+  background: linear-gradient(
+    rgba(192, 166, 132, 0.5),
+    rgba(163, 140, 110, 0.5)
+  );
+}
+meta.button.selected {
+  background: linear-gradient(#29b6c7, #13555d);
+  color: #3b3630;
+}
+meta.button.highlighted.selected {
+  background: linear-gradient(rgba(41, 182, 199, 0.75), rgba(19, 85, 93, 0.75));
+  color: #3b3630;
+}
+meta.textfield {
+  background-color: #f8f5ef;
+  border-color: rgba(163, 140, 110, 0.25);
+}
+meta.textfield.highlighted {
+  background-color: #f8f5ef;
+  border-color: rgba(163, 140, 110, 0.5);
+}
+meta.document.button {
+  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  border-color: hsla(0, 0%, 0%, 0.2);
+}
+meta.document.button.disabled {
+  background-color: transparent;
+  color: hsla(0, 0%, 64%, 0.5);
+}
+meta.document.button.highlighted {
+  background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
+}
+meta.document.textfield {
+  background-color: hsla(0, 0%, 50%, 0.15);
+  border-color: hsla(0, 0%, 0%, 0.2);
+}
+meta.document.textfield.highlighted {
+  background-color: hsl(0, 0%, 80%);
+  border-color: hsla(0, 0%, 60%, 0.5);
+}
+
+/* Document styles */
+meta.document {
+  background-color: hsl(38, 37%, 94%);
+  border-color: rgba(163, 140, 110, 0.25);
+}
+meta.document.button {
+  background: linear-gradient(
+    rgba(192, 166, 132, 0.25),
+    rgba(163, 140, 110, 0.25)
+  );
+  border-color: rgba(163, 140, 110, 0.25);
+}
+meta.document.button.disabled {
+  background-color: transparent;
+  color: rgba(122, 122, 122, 0.5);
+}
+meta.document.button.highlighted {
+  background: linear-gradient(
+    rgba(192, 166, 132, 0.5),
+    rgba(163, 140, 110, 0.5)
+  );
+}
+meta.document.textfield {
+  background-color: rgba(192, 166, 132, 0.15);
+  border-color: rgba(163, 140, 110, 0.25);
+}
+meta.document.textfield.highlighted {
+  background-color: #f8f5ef;
+  border-color: rgba(163, 140, 110, 0.5);
+}
+
+/* Text ------------------------------- */
+meta.text {
+  color: hsl(26, 38%, 30%);
+}
+meta.text.invisible {
+  color: hsl(217, 40%, 30%);
+}
+meta.text.selected {
+  background-color: hsl(217, 100%, 28%);
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: hsla(217, 35%, 20%, 0.319);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: hsl(217, 32%, 32%);
+}
+
+/* Gutter */
+meta.gutter {
+  color: hsl(217, 32%, 32%);
+}
+meta.gutter.selected {
+  color: hsl(217, 27%, 62%);
+}
+
+/* Syntax styles ------------------------------- */
+keyword {
+  color: hsl(205, 100%, 38%);
+}
+comment {
+  color: hsl(35, 42%, 70%);
+}
+processing {
+  color: hsl(210, 20%, 50%);
+}
+declaration {
+  color: hsl(210, 20%, 50%);
+}
+bracket {
+  color: hsl(27, 44%, 70%);
+}
+operator {
+  color: hsl(339, 94%, 45%);
+}
+invalid {
+  background-color: hsl(355, 82%, 96%);
+  color: hsl(27, 38%, 38%);
+}
+link {
+  color: hsl(27, 38%, 38%);
+}
+
+/* Values */
+value.boolean {
+  color: hsl(27, 38%, 38%);
+}
+value.null {
+  color: hsl(27, 38%, 38%);
+}
+value.number {
+  color: hsl(270, 76%, 56%);
+}
+value.entity {
+  color: hsl(27, 38%, 38%);
+}
+value.symbol {
+  color: hsl(27, 38%, 38%);
+}
+
+/* Identifiers */
+identifier.type {
+  color: hsl(256, 51%, 68%);
+}
+identifier.global,
+identifier.variable {
+  color: hsl(27, 38%, 38%);
+}
+identifier.property,
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: hsl(339, 94%, 45%);
+}
+identifier.key {
+  color: hsl(27, 38%, 38%);
+}
+identifier.argument {
+  color: hsl(39, 100%, 45%);
+  font-style: italic;
+}
+
+/* Strings */
+string {
+  color: hsl(26, 90%, 43%);
+}
+string.key {
+  color: hsl(27, 38%, 38%);
+}
+string-template {
+  color: hsl(27, 38%, 38%);
+}
+string-template.value {
+  color: hsl(27, 38%, 38%);
+}
+regex {
+  color: hsl(27, 38%, 38%);
+}
+regex.escaped {
+  color: hsl(27, 38%, 38%);
+}
+cdata {
+  color: hsl(27, 38%, 38%);
+}
+
+/* Markup */
+markup.heading {
+  color: hsl(339, 94%, 45%);
+}
+markup.line {
+  color: hsl(60, 50%, 75%);
+}
+markup.bold {
+  color: hsl(196, 60%, 76%);
+  font-weight: bold;
+}
+markup.italic {
+  color: hsl(94, 40%, 80%);
+  font-style: italic;
+}
+markup.strikethrough {
+  color: hsl(27, 38%, 38%);
+}
+markup.list.item {
+  color: hsl(30, 50%, 80%);
+}
+markup.code {
+  background-color: hsla(0, 0%, 50%, 0.2);
+}
+markup.link {
+  color: hsl(39, 96%, 69%);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  font-weight: bold;
+  color: hsl(27, 38%, 38%);
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: hsl(27, 38%, 38%);
+}
+
+/* Tags */
+tag {
+  color: hsl(166, 40%, 78%);
+}
+tag.bracket {
+  color: hsl(27, 32%, 70%);
+}
+tag.framework {
+  color: hsl(311, 73%, 45%);
+}
+tag.attribute.name {
+  color: hsl(95, 54%, 82%);
+}
+tag.attribute.value {
+  color: hsl(39, 96%, 69%);
+}
+tag.attribute.value.link {
+  color: hsl(27, 38%, 38%);
+}
+
+/* Styles */
+style.at {
+  color: hsl(27, 38%, 38%);
+}
+style.selector {
+  color: hsl(133, 73%, 30%);
+}
+style.attribute.name,
+scss.attribute.name {
+  color: hsl(39, 100%, 30%);
+}
+style.value.number {
+  color: hsl(27, 38%, 38%);
+}
+
+/* HTML */
+html.tag {
+  color: hsl(27, 32%, 70%);
+}
+tag.name {
+  color: hsl(339, 94%, 45%);
+}
+html.tag.name {
+  color: hsl(339, 94%, 45%);
+}
+
+/* JS */
+javascript.block {
+  color: hsl(210, 20%, 50%);
+}
+javascript.definition.function {
+  color: hsl(205, 100%, 38%);
+}
+javascript.definition.function.anonymous {
+  color: hsl(339, 94%, 45%);
+}
+javascript.identifier.method {
+  color: hsl(339, 94%, 45%);
+}
+javascript.identifier.name {
+  color: hsl(27, 38%, 38%);
+}
+javascript.identifier.argument {
+  color: hsl(30, 50%, 80%);
+}
+tag.attribute.name {
+  color: hsl(133, 73%, 30%);
+}
+
+/* TS */
+typescript.identifier.constant.name {
+  color: hsl(133, 73%, 30%);
+}
+typescript.identifier.property {
+  color: hsl(253, 100%, 96%);
+}
+
+/* JSX */
+jsx.tag {
+  color: hsl(27, 32%, 70%);
+}
+jsx.tag.name {
+  color: hsl(133, 73%, 30%);
+}
+
+/* Rust */
+rust.definition.function {
+  color: hsl(133, 73%, 30%);
+}
+
+/* Astro */
+astro.block.frontmatter,
+astro.tag.attribute.operator,
+astro.tag.open,
+astro.tag.close {
+  color: hsl(27, 32%, 70%);
+}
+astro.tag.open.name,
+astro.tag.close.name {
+  color: hsl(339, 94%, 45%);
+}
+astro.value.variable.bracket {
+  color: hsl(205, 100%, 38%);
+}
+
+/* Antlers */
+antlers.tag.framework.variable.start,
+antlers.tag.framework.variable.end {
+  color: hsl(205, 100%, 38%);
+}
+antlers.identifier.argument {
+  color: hsl(311, 73%, 45%);
+}
+
+/* Twig and liquid */
+twig.tag.framework,
+liquid.tag.framework {
+  color: hsl(205, 100%, 38%);
+}
+twig.keyword,
+liquid.keyword {
+  color: hsl(311, 73%, 45%);
+}
+
+/* Elixir WIP */
+elixir.definition.function,
+elixir.identifier.name,
+elixir.keyword {
+  color: hsl(339, 94%, 45%);
+}
+elixir.import,
+elixir.import.identifier.symbol {
+  color: hsl(133, 73%, 30%);
+}
+elixir.identifier.constant,
+elixir.value.list {
+  color: hsl(30, 50%, 80%);
+}
+elixir.identifier.module.submodule {
+  color: hsl(253, 100%, 96%);
+}
+elixir.identifier {
+  color: hsl(39, 96%, 69%);
+}
+elixir.definition.function {
+  color: hsl(205, 100%, 38%);
+}
+elixir.string.block {
+  color: hsl(210, 20%, 50%);
+}
+elixir.identifier.function.name {
+  color: hsl(256, 51%, 68%);
+}
+
+/*  PHP  */
+
+keyword.modifier {
+  color: hsl(133, 73%, 30%);
+}
+/* Advanced PHP */
+advphp.static.condition {
+  /* if, else, elseif, foreach, ... */
+  color: hsl(205, 100%, 38%);
+}
+advphp.static.processor {
+  /* echo, return, print, ... */
+  color: hsl(205, 100%, 38%);
+}
+advphp.static.declaration {
+  /* new, public, private, ... */
+  color: hsl(133, 73%, 30%);
+}
+advphp.static.import {
+  /* include, require, ... */
+  color: hsl(205, 100%, 38%);
+}
+advphp.static.wordOperator {
+  /* AND, OR, XOR, ... */
+  color: hsl(339, 94%, 45%);
+}
+advphp.identifier.variable.prefix {
+  color: hsl(311, 73%, 45%);
+}
+advphp.identifier.variable.name {
+  /* $variable */
+  color: hsl(30, 50%, 80%);
+}
+advphp.identifier.variable.this {
+  color: hsl(339, 94%, 45%);
+}
+advphp.wp.keywords,
+advphp.curl.keywords,
+advphp.static.constant {
+  /* ABSPATH, WP_ADMIN, ... */
+  color: hsl(30, 50%, 80%);
+}
+advphp.sql.keywords {
+  /* SELECT, FROM, WHERE, ... */
+  color: hsl(205, 100%, 38%);
+}
+advphp.operator {
+  /* +, -, /, >, ... */
+  color: hsl(339, 94%, 45%);
+}
+advphp.semicolon {
+  /* ; */
+  color: hsl(210, 20%, 50%);
+}
+advphp.identifier.function.keyword {
+  /* function */
+}
+advphp.identifier.function.name {
+  /* my_function() */
+  color: hsl(205, 100%, 38%);
+}
+advphp.identifier.parameter.prefix {
+  /* my_function($parameter) {} */
+  color: hsl(311, 73%, 45%);
+}
+advphp.identifier.parameter {
+  /* my_function($parameter) {} */
+  color: hsl(256, 51%, 68%);
+}
+advphp.identifier.parameter.name {
+  /* my_function($parameter) {} */
+  color: hsl(30, 50%, 80%);
+}
+advphp.identifier.object.name {
+  /* Object:: */
+  color: hsl(256, 51%, 68%);
+}
+advphp.definition.namespace {
+  /* Name\Space */
+  color: hsl(210, 20%, 50%);
+}
+advphp.string {
+  color: hsl(27, 38%, 38%);
+}
+advphp.string.singleQuote {
+  color: hsl(26, 90%, 43%);
+}
+advphp.value.string,
+advphp.string.doubleQuote {
+  /* "string", 'string' */
+  color: hsl(30, 50%, 80%);
+}
+advphp.string.backTic {
+  /* `string` */
+  color: hsl(30, 50%, 80%);
+}
+advphp.tag.framework {
+  color: hsl(311, 73%, 45%);
+}
