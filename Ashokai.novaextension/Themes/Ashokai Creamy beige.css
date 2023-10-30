@@ -275,7 +275,7 @@ tag.attribute.name {
   color: hsl(95, 54%, 82%);
 }
 tag.attribute.value {
-  color: hsl(39, 96%, 69%);
+  color: hsl(31, 100%, 40%);
 }
 tag.attribute.value.link {
   color: hsl(27, 38%, 38%);
@@ -356,7 +356,7 @@ astro.block.frontmatter,
 astro.tag.attribute.operator,
 astro.tag.open,
 astro.tag.close {
-  color: hsl(27, 32%, 70%);
+  color: hsl(27, 44%, 70%);
 }
 astro.tag.open.name,
 astro.tag.close.name {
@@ -403,7 +403,7 @@ elixir.identifier.module.submodule {
   color: hsl(253, 100%, 96%);
 }
 elixir.identifier {
-  color: hsl(39, 96%, 69%);
+  color: hsl(31, 100%, 40%);
 }
 elixir.definition.function {
   color: hsl(205, 100%, 38%);
