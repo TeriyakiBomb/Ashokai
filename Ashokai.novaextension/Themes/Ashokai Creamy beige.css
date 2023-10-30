@@ -217,16 +217,17 @@ cdata {
 /* Markup */
 markup.heading {
   color: hsl(339, 94%, 43%);
+  font-weight: bold;
 }
 markup.line {
   color: hsl(60, 50%, 75%);
 }
 markup.bold {
-  color: hsl(196, 60%, 76%);
+  color: hsl(205, 100%, 38%);
   font-weight: bold;
 }
 markup.italic {
-  color: hsl(94, 40%, 80%);
+  color: hsl(94, 40%, 30%);
   font-style: italic;
 }
 markup.strikethrough {
@@ -239,7 +240,7 @@ markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
 }
 markup.link {
-  color: hsl(39, 96%, 69%);
+  color: hsl(40, 90%, 39%);
 }
 
 /* Types */
