@@ -142,7 +142,7 @@ bracket {
   color: hsl(27, 44%, 70%);
 }
 operator {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 invalid {
   background-color: hsl(355, 82%, 96%);
@@ -181,7 +181,7 @@ identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 identifier.key {
   color: hsl(27, 38%, 38%);
@@ -216,7 +216,7 @@ cdata {
 
 /* Markup */
 markup.heading {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 markup.line {
   color: hsl(60, 50%, 75%);
@@ -300,10 +300,10 @@ html.tag {
   color: hsl(27, 32%, 70%);
 }
 tag.name {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 html.tag.name {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 
 /* JS */
@@ -314,10 +314,10 @@ javascript.definition.function {
   color: hsl(205, 100%, 38%);
 }
 javascript.definition.function.anonymous {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 javascript.identifier.method {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 javascript.identifier.name {
   color: hsl(27, 38%, 38%);
@@ -359,7 +359,7 @@ astro.tag.close {
 }
 astro.tag.open.name,
 astro.tag.close.name {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 astro.value.variable.bracket {
   color: hsl(205, 100%, 38%);
@@ -388,7 +388,7 @@ liquid.keyword {
 elixir.definition.function,
 elixir.identifier.name,
 elixir.keyword {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 elixir.import,
 elixir.import.identifier.symbol {
@@ -438,7 +438,7 @@ advphp.static.import {
 }
 advphp.static.wordOperator {
   /* AND, OR, XOR, ... */
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 advphp.identifier.variable.prefix {
   color: hsl(311, 73%, 45%);
@@ -448,7 +448,7 @@ advphp.identifier.variable.name {
   color: hsl(30, 100%, 43%);
 }
 advphp.identifier.variable.this {
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 advphp.wp.keywords,
 advphp.curl.keywords,
@@ -462,7 +462,7 @@ advphp.sql.keywords {
 }
 advphp.operator {
   /* +, -, /, >, ... */
-  color: hsl(339, 94%, 45%);
+  color: hsl(339, 94%, 43%);
 }
 advphp.semicolon {
   /* ; */
