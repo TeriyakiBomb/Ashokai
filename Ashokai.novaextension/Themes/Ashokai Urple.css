@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: hsl(253, 50%, 44%);
 }
 meta.window {
   background-color: hsl(258, 17%, 11%);
@@ -18,14 +18,17 @@ meta.titlebar.inactive {
 meta.button {
   background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
   border-color: hsla(0, 0%, 0%, 0.2);
-  color: hsl(253, 100%, 96%);
+  color: hsl(253, 42%, 83%);
+  text-shadow: none;
 }
 meta.button.highlighted {
   background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
+  text-shadow: none;
 }
 meta.button.selected {
   background: linear-gradient(hsl(253, 71%, 69%), hsl(253, 71%, 44%));
-  color: hsl(253, 100%, 96%);
+  color: hsl(0, 0%, 100%);
+  text-shadow: none;
 }
 meta.button.highlighted.selected {
   background: linear-gradient(
@@ -33,17 +36,21 @@ meta.button.highlighted.selected {
     hsla(253, 71%, 44%, 0.75)
   );
   color: hsl(253, 100%, 96%);
+  text-shadow: none;
 }
 meta.textfield {
   background-color: hsl(261, 11%, 19%);
   border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.textfield.highlighted {
-  background-color: hsl(261, 11%, 10%);
-  border-color: hsla(0, 0%, 60%, 0.5);
+  background-color: hsl(261, 11%, 15%);
+  border-color: hsla(253, 71%, 69%, 0.4);
 }
 meta.document.button {
-  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  background: linear-gradient(
+    hsla(253, 3%, 60%, 0.25),
+    hsla(253, 10%, 50%, 0.2)
+  );
   border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.document.button.disabled {
@@ -54,12 +61,12 @@ meta.document.button.highlighted {
   background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.document.textfield {
-  background-color: hsla(0, 0%, 50%, 0.15);
-  border-color: hsla(0, 0%, 0%, 0.2);
+  background-color: hsla(253, 10%, 40%, 0.1);
+  border-color: hsla(253, 30%, 30%, 0.9);
 }
 meta.document.textfield.highlighted {
-  background-color: hsl(0, 0%, 14%);
-  border-color: hsla(0, 0%, 60%, 0.5);
+  background-color: hsl(261, 11%, 15%);
+  border-color: hsla(253, 71%, 69%, 0.4);
 }
 
 /* Document styles */
