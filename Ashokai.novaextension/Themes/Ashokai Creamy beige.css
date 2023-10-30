@@ -31,11 +31,11 @@ meta.button.highlighted {
 }
 meta.button.selected {
   background: linear-gradient(#29b6c7, #13555d);
-  color: #3b3630;
+  color: hsl(33, 10%, 21%);
 }
 meta.button.highlighted.selected {
   background: linear-gradient(rgba(41, 182, 199, 0.75), rgba(19, 85, 93, 0.75));
-  color: #3b3630;
+  color: hsl(33, 10%, 21%);
 }
 meta.textfield {
   background-color: #f8f5ef;
@@ -67,7 +67,7 @@ meta.document.textfield.highlighted {
 
 /* Document styles */
 meta.document {
-  background-color: hsl(38, 37%, 94%);
+  background-color: hsl(36, 37%, 93%);
   border-color: rgba(163, 140, 110, 0.25);
 }
 meta.document.button {
@@ -104,12 +104,12 @@ meta.text.invisible {
   color: hsl(217, 40%, 30%);
 }
 meta.text.selected {
-  background-color: hsl(217, 100%, 28%);
+  background-color: hsla(32, 35%, 20%, 0.18);
 }
 
 /* Cursor */
 meta.cursor {
-  background-color: hsla(217, 35%, 20%, 0.319);
+  background-color: hsl(32, 20%, 85%);
 }
 
 /* Indentation Guides */
