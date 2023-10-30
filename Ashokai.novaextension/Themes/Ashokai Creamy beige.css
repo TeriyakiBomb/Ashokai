@@ -171,7 +171,7 @@ value.symbol {
 
 /* Identifiers */
 identifier.type {
-  color: hsl(256, 51%, 68%);
+  color: hsl(256, 51%, 48%);
 }
 identifier.global,
 identifier.variable {
