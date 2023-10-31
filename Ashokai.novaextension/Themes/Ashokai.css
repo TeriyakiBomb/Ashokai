@@ -165,15 +165,19 @@ value.symbol {
 identifier.type {
   color: hsl(256, 51%, 68%);
 }
-identifier.global,
+identifier.global {
+  color: hsl(256, 51%, 68%);
+}
 identifier.variable {
   color: hsl(207, 38%, 91%);
 }
 identifier.property,
-identifier.decorator,
 identifier.function,
 identifier.method {
   color: hsl(339, 94%, 63%);
+}
+identifier.decorator {
+  color: hsl(207, 100%, 74%);
 }
 identifier.key {
   color: hsl(207, 38%, 91%);
@@ -181,6 +185,21 @@ identifier.key {
 identifier.argument {
   color: hsl(39, 96%, 69%);
   font-style: italic;
+}
+javascript.identifier {
+  color: hsl(39, 96%, 69%);
+}
+comment.doctag {
+  color: hsl(207, 100%, 74%);
+}
+identifier.type.constructor {
+  color: hsl(311, 73%, 70%);
+}
+identifier.type.declare {
+  color: hsl(133, 73%, 70%);
+}
+identifier.variable.builtin {
+  color: hsl(207, 100%, 74%);
 }
 
 /* Strings */
@@ -197,7 +216,7 @@ string-template.value {
   color: hsl(207, 38%, 91%);
 }
 regex {
-  color: hsl(207, 38%, 91%);
+  color: hsl(60, 50%, 75%);
 }
 regex.escaped {
   color: hsl(207, 38%, 91%);
