@@ -1,33 +1,50 @@
-# Ashokai 🍭
+<img width="400px" alt="Ashokai logo" src="https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/logo.png"></img>
 
-**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for **Elixir**, **PHP**, **[Advanced PHP](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/)**, **JSX**, **Astro**, **Twig**, **Liquid** and **Statamic Antlers.**
+**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for **Elixir**, **PHP**, **Blade**, **[Advanced PHP](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/)**, **JSX**, **Astro**, **Twig**, **Liquid**, **SQL** and **Statamic Antlers.**
 
-![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/ashokai-cover.png)
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/variants.png)
 
-Ashokai comes with a few variants:
+## Ashokai comes with variants 🩶🖤💜🤍
 
-### Contrasty
+### Ashokai
+The OG. Vanilla. Well, it's dark, but you know what I mean.
 
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/ashokai.png)
+
+
+### Ashokai - Contrasty
 Which has more contrast.
 
-![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai-contrasty.jpg)
 
-### Urple
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/contrasty.png)
 
-is kind of purple
 
-![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai-urple.jpg)
+### Ashokai - Urple
+is kind of purple.
 
-### Brahn
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/urple.png)
 
+
+### Ashokai - Brahn
 You know a colour that doesn't get enough love? Brown. Brown is awesome. This version is brown BTW.
 
-![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/Ashokai-Brahn.jpg)
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/brahn.png)
+
+
+### Ashokai - Creamy beige
+A warm, light beige variant. A bit like Bailey's. In fact, it's as close as you can get to Bailey's without getting your eyes wet.⋆
+
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/creamybeige.png)
+
 
 ---
 
-If you've got any suggestions for specific highlighting, I'm all ears, open up an issue on the github repo
+## Contribution and issues
+
+If you've got any suggestions for specific highlighting, I'm all ears, open up an issue on the Github repo.
 
 ## Acknowledgements
 
 Ashokai is influenced by [Nebula](https://github.com/tjkohli/Nebula.novaextension), [Monokai pro](https://monokai.pro) and [Catppuccin](https://catppuccin-website.vercel.app).
+
+<sup>⋆I'm Old Gregg.</sup>

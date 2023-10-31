@@ -1,3 +1,16 @@
+## Version 1.8 🥛👞
+
+### NEW! 🌟
+
+- Light theme users now getting some recognition, 1.8 introduces a soft, beigey theme called "Creamy beige", broadly based on Monokai pro's warm theme but with Ashokai colours and higher contrast
+- New more betterer logo and better theme examples
+- Added SQL specific formatting
+- checked consistency with C++, lua and swift
+
+### FIXES! 🐞
+
+- Styling improvements for urple and brahn variants
+
 ## Version 1.7 🐘🐘🐘
 
 ### NEW! 🌟
