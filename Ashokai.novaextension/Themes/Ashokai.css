@@ -451,12 +451,9 @@ advphp.static.wordOperator {
   /* AND, OR, XOR, ... */
   color: hsl(339, 94%, 63%);
 }
-advphp.identifier.variable.prefix {
-  color: hsl(311, 73%, 70%);
-}
+advphp.identifier.variable.prefix,
 advphp.identifier.variable.name {
-  /* $variable */
-  color: hsl(30, 50%, 80%);
+  color: hsl(207, 38%, 91%);
 }
 advphp.identifier.variable.this {
   color: hsl(339, 94%, 63%);
@@ -466,6 +463,9 @@ advphp.curl.keywords,
 advphp.static.constant {
   /* ABSPATH, WP_ADMIN, ... */
   color: hsl(30, 50%, 80%);
+}
+advphp.identifier.function.keyword {
+  color: hsl(207, 100%, 74%);
 }
 advphp.sql.keywords {
   /* SELECT, FROM, WHERE, ... */
@@ -484,7 +484,7 @@ advphp.identifier.function.keyword {
 }
 advphp.identifier.function.name {
   /* my_function() */
-  color: hsl(207, 100%, 74%);
+  color: hsl(339, 94%, 63%);
 }
 advphp.identifier.parameter.prefix {
   /* my_function($parameter) {} */
