@@ -162,9 +162,7 @@ value.symbol {
 }
 
 /* Identifiers */
-identifier.type {
-  color: hsl(256, 51%, 68%);
-}
+identifier.type,
 identifier.global {
   color: hsl(256, 51%, 68%);
 }
@@ -478,9 +476,6 @@ advphp.operator {
 advphp.semicolon {
   /* ; */
   color: hsl(210, 20%, 50%);
-}
-advphp.identifier.function.keyword {
-  /* function */
 }
 advphp.identifier.function.name {
   /* my_function() */
