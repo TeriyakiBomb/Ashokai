@@ -1,16 +1,16 @@
 <scheme name="Ashokai" version="142">
   <metaInfo>
-    <property name="created">2023-11-01T11:22:42</property>
+    <property name="created">2023-11-02T21:53:02</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2023.3.0.0</property>
-    <property name="modified">2023-11-01T11:22:46</property>
+    <property name="modified">2023-11-02T21:53:07</property>
     <property name="originalScheme">Ashokai</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="7bd88f" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />
     <option name="CARET_COLOR" value="f7f1ff" />
-    <option name="CARET_ROW_COLOR" value="2b2b2b" />
+    <option name="CARET_ROW_COLOR" value="202631" />
     <option name="CONSOLE_BACKGROUND_KEY" value="222222" />
     <option name="DELETED_LINES_COLOR" value="fc618d" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="1e2a30" />
@@ -173,25 +173,25 @@
     <option name="BREADCRUMBS_CURRENT">
       <value>
         <option name="FOREGROUND" value="f7f1ff" />
-        <option name="BACKGROUND" value="363537" />
+        <option name="BACKGROUND" value="2b3240" />
       </value>
     </option>
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="939393" />
-        <option name="BACKGROUND" value="222222" />
+        <option name="FOREGROUND" value="5e6e8c" />
+        <option name="BACKGROUND" value="2b3240" />
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
       <value>
         <option name="FOREGROUND" value="ffffff" />
-        <option name="BACKGROUND" value="363537" />
+        <option name="BACKGROUND" value="333c4d" />
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="525053" />
-        <option name="BACKGROUND" value="222222" />
+        <option name="FOREGROUND" value="333c4d" />
+        <option name="BACKGROUND" value="2b2d30" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -473,7 +473,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="7bd88f" />
+        <option name="FOREGROUND" value="7aea92" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
@@ -550,7 +550,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="7bd88f" />
+        <option name="FOREGROUND" value="7aea92" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -610,7 +610,7 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="7bd88f" />
+        <option name="FOREGROUND" value="7aea92" />
       </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
@@ -639,7 +639,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="7bd88f" />
+        <option name="FOREGROUND" value="7aea92" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -3412,8 +3412,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="c6bfce" />
-        <option name="BACKGROUND" value="1D222A" />
+        <option name="FOREGROUND" value="5e6e8c" />
+        <option name="BACKGROUND" value="1d222a" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -3554,6 +3554,11 @@
         <option name="FOREGROUND" value="7bd88f" />
       </value>
     </option>
+    <option name="YAML_SCALAR_KEY">
+      <value>
+        <option name="FOREGROUND" value="dfe8f0" />
+      </value>
+    </option>
     <option name="YAML_SCALAR_LIST">
       <value>
         <option name="FOREGROUND" value="c1c0c0" />
@@ -3568,7 +3573,7 @@
     </option>
     <option name="YAML_SIGN">
       <value>
-        <option name="FOREGROUND" value="ff9bbb" />
+        <option name="FOREGROUND" value="f94786" />
       </value>
     </option>
     <option name="org.rust.MACRO">
@@ -3579,6 +3584,11 @@
     <option name="org.rust.MODULE">
       <value>
         <option name="FOREGROUND" value="9983d7" />
+      </value>
+    </option>
+    <option name="org.toml.KEY">
+      <value>
+        <option name="FOREGROUND" value="dfe8f0" />
       </value>
     </option>
   </attributes>
