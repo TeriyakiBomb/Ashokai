@@ -5,6 +5,9 @@
   "dark": true,
   "colors": {
     "bg": "#12151B",
+    "bg2": "#171A21",
+    "borders": "#0e0e14",
+    "editorBG": "#1D222A",
     "text": "#DFE8F0",
     "button1" : "#222833",
     "button2" : "#2b3240"
@@ -13,10 +16,22 @@
     "*" : {
       "background": "bg",
       "foreground": "text",
-      "windowText": "text"
+      "Borders.color" : "borders",
+      "windowText": "text",
+      "Button.foreground": "text",
+      "Button.default.endBackground": "button1",
+      "Button.default.startBackground": "button2",
+      "TabbedPane.underlineColor": "#ff0000"
     },
-    "Button.foreground": "text",
-    "Button.default.endBackground": "button1",
-    "Button.default.startBackground": "button2"
+    "ToolWindow.background": "bg2",
+    "ToolWindow.Header.background": "#ff0000",
+    "ToolWindow.Header.inactiveBackground": "bg2",
+    "ToolWindow.HeaderTab.hoverBackground": "bg2",
+    "EditorTabs": {
+      "selectedForeground": "text",
+      "underlinedTabBackground": "editorBG",
+      "background": "bg",
+      "underlineColor": "editorBG"
+    }
   }
 }
