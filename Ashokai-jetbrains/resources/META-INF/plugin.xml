@@ -34,5 +34,6 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="Ashokai" path="/theme/Ashokai.theme.json"/>
+        <themeProvider id="Ashokai Contrasty" path="/Ashokai_constrasty.theme.json"/>
     </extensions>
 </idea-plugin>
