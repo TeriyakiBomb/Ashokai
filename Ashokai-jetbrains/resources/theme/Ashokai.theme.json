@@ -48,9 +48,24 @@
       "ArrowButton": {
         "iconColor": "text",
         "disabledIconColor": "bg",
-        "nonEditableBackground": "button1",
-        ""
+        "nonEditableBackground": "button1"
       }
+    },
+    "CheckBox": {
+      "background" : "bg2",
+      "select": "#800000",
+      "Checkbox.Foreground.Selected.Dark" : "#800000"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "bg",
+      "Checkbox.Border.Default.Dark": "button2",
+      "Checkbox.Foreground.Selected": "text",
+      "Checkbox.Foreground.Selected.Dark": "text",
+      "Checkbox.Background.Default": "bg",
+      "Checkbox.Background.Disabled": "bg",
+      "Checkbox.Background.Disabled.Dark": "bg"
     }
   }
 }
