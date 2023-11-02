@@ -1,0 +1,19 @@
+{
+  "name": "Ashokai",
+  "author": "YourCompany",
+  "dark": true,
+  "colors": {
+    "bg": "#12151B",
+    "text": "#DFE8F0",
+    "keyword": "#7AC3FF",
+    "comment": "#5371A1",
+    "bracket": "#667F99",
+    "operator": "#F94786"
+  },
+  "ui": {
+    "*" : {
+      "background": "bg"
+    },
+    "Button.background": "bg"
+  }
+}
