@@ -23,15 +23,34 @@
       "Button.default.startBackground": "button2",
       "TabbedPane.underlineColor": "#ff0000"
     },
-    "ToolWindow.background": "bg2",
-    "ToolWindow.Header.background": "#ff0000",
-    "ToolWindow.Header.inactiveBackground": "bg2",
-    "ToolWindow.HeaderTab.hoverBackground": "bg2",
+
+    "Panel" : {
+      "background" : "bg2"
+
+    },
+
+    "ToolWindow":{
+      "background": "bg2",
+      "Header.background": "#ff0000",
+      "Header.inactiveBackground": "bg2",
+      "HeaderTab.hoverBackground": "bg2"
+    },
+      "MainWindow.Tab.foreground": "#ff0000",
     "EditorTabs": {
       "selectedForeground": "text",
       "underlinedTabBackground": "editorBG",
       "background": "bg",
       "underlineColor": "editorBG"
+    },
+    "ComboBox": {
+      "background" : "bg2",
+      "nonEditableBackground": "bg2",
+      "ArrowButton": {
+        "iconColor": "text",
+        "disabledIconColor": "bg",
+        "nonEditableBackground": "button1",
+        ""
+      }
     }
   }
 }
