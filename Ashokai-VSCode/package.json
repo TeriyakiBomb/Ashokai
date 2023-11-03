@@ -15,6 +15,11 @@
         "label": "Ashokai",
         "uiTheme": "vs-dark",
         "path": "./themes/Ashokai-color-theme.json"
+      },
+      {
+        "label": "Ashokai Urple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ashokai-urple-color-theme.json"
       }
     ]
   }
