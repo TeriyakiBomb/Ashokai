@@ -1,0 +1,21 @@
+{
+  "name": "ashokai",
+  "displayName": "Ashokai",
+  "description": "A fancy and colourful theme for fancy people",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ashokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ashokai-color-theme.json"
+      }
+    ]
+  }
+}
