@@ -54,6 +54,7 @@
         "activityBar.activeFocusBorder": "#FA8D3E",
         "sideBar.background": "#13151b",
         "sideBarSectionHeader.background": "#13151b",
+		"minimap.background": "#1d222abd",
         "minimap.selectionHighlight": "#77a6e830",
         "minimap.errorHighlight": "#F07171",
         "minimap.warningHighlight": "#FA8D3E",
