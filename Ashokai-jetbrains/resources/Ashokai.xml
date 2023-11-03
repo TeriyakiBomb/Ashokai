@@ -1,9 +1,9 @@
 <scheme name="Ashokai" version="142">
   <metaInfo>
-    <property name="created">2023-11-02T21:53:02</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2023.3.0.0</property>
-    <property name="modified">2023-11-02T21:53:07</property>
+    <property name="created">2023-11-03T00:19:38</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2023.2.4.0.0</property>
+    <property name="modified">2023-11-03T00:19:44</property>
     <property name="originalScheme">Ashokai</property>
   </metaInfo>
   <colors>
@@ -41,7 +41,7 @@
     <option name="INDENT_GUIDE" value="2d3441" />
     <option name="INFORMATION_HINT" value="363537" />
     <option name="LINE_NUMBERS_COLOR" value="394150" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="c1c0c0" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="586280" />
     <option name="LOOKUP_COLOR" value="363537" />
     <option name="METHOD_SEPARATORS_COLOR" value="59575a" />
     <option name="MODIFIED_LINES_COLOR" value="fd9353" />
@@ -54,7 +54,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="505c71" />
     <option name="SELECTED_INDENT_GUIDE" value="5ad4e6" />
     <option name="SELECTED_TEARLINE_COLOR" value="fce566" />
-    <option name="SELECTION_BACKGROUND" value="525053" />
+    <option name="SELECTION_BACKGROUND" value="133689" />
     <option name="SEPARATOR_ABOVE_COLOR" value="2b2b2b" />
     <option name="SEPARATOR_BELOW_COLOR" value="2b2b2b" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="363537" />
@@ -126,6 +126,11 @@
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="5ad4e6" />
+      </value>
+    </option>
+    <option name="ASTRO.FRONTMATTER_SEPARATOR">
+      <value>
+        <option name="FOREGROUND" value="5371a1" />
       </value>
     </option>
     <option name="BACKGROUND">
@@ -415,7 +420,7 @@
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fc618d" />
+        <option name="FOREGROUND" value="f94786" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
@@ -520,7 +525,7 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="fc618d" />
+        <option name="FOREGROUND" value="f94786" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
@@ -649,12 +654,12 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="fc618d" />
+        <option name="FOREGROUND" value="f94786" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="FOREGROUND" value="fc618d" />
+        <option name="FOREGROUND" value="f94786" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -748,6 +753,11 @@
       <value>
         <option name="FOREGROUND" value="5371a1" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="ELIXIR_IGNORED_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="5371a1" />
       </value>
     </option>
     <option name="ELIXIR_MACRO_CALL">
@@ -922,6 +932,21 @@
     <option name="HAML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="fc618d" />
+      </value>
+    </option>
+    <option name="HANDLEBARS.IDENTIFIERS">
+      <value>
+        <option name="FOREGROUND" value="ea7ad5" />
+      </value>
+    </option>
+    <option name="HANDLEBARS.MUSTACHES">
+      <value>
+        <option name="FOREGROUND" value="7ac3ff" />
+      </value>
+    </option>
+    <option name="HANDLEBARS.VALUES">
+      <value>
+        <option name="FOREGROUND" value="7ac3ff" />
       </value>
     </option>
     <option name="HOCON_BOOLEAN">
@@ -1307,6 +1332,16 @@
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
         <option name="BACKGROUND" value="12404b" />
+      </value>
+    </option>
+    <option name="LIQUID_TAG_BRACE">
+      <value>
+        <option name="FOREGROUND" value="7ac3ff" />
+      </value>
+    </option>
+    <option name="LIQUID_VALUE_BRACE">
+      <value>
+        <option name="FOREGROUND" value="7ac3ff" />
       </value>
     </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
@@ -3412,7 +3447,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="5e6e8c" />
+        <option name="FOREGROUND" value="dfe8f0" />
         <option name="BACKGROUND" value="1d222a" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
@@ -3425,7 +3460,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="505c71" />
+        <option name="FOREGROUND" value="dfe8f0" />
         <option name="ERROR_STRIPE_COLOR" value="87cefa" />
       </value>
     </option>
@@ -3454,9 +3489,19 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
+    <option name="TWIG_BRACKETS">
+      <value>
+        <option name="FOREGROUND" value="7ac3ff" />
+      </value>
+    </option>
     <option name="TWIG_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="7bd88f" />
+      </value>
+    </option>
+    <option name="TWIG_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="f94786" />
       </value>
     </option>
     <option name="TYPEDEF">
@@ -3473,6 +3518,11 @@
       <value>
         <option name="EFFECT_COLOR" value="5ad4e6" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="UNMATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffce84" />
       </value>
     </option>
     <option name="Unresolved reference access">
@@ -3529,7 +3579,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="fc618d" />
+        <option name="FOREGROUND" value="f94786" />
       </value>
     </option>
     <option name="XPATH.KEYWORD">
