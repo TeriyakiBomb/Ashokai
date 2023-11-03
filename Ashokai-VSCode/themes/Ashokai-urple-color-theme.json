@@ -133,6 +133,7 @@
         "titleBar.activeBackground": "#2b2636",
         "titleBar.inactiveBackground": "#211d29",
         "titleBar.border": "#2f2a3b",
+		"titleBar.activeForeground": "#bcb9c8",
         "menu.background": "#211d29",
         "menu.foreground": "#ece8fb",
         "menu.selectionBackground": "#FA8D3EDD",
