@@ -125,6 +125,7 @@
         "panel.dropBorder": "#FA8D3E",
         "panelTitle.activeBorder": "#FA8D3E",
         "statusBar.background": "#17141c",
+		"statusBar.foreground": "#87799F",
         "statusBarItem.hoverBackground": "#2c2636",
         "statusBarItem.prominentBackground": "#FA8D3E",
         "statusBarItem.prominentForeground": "#16141c",
