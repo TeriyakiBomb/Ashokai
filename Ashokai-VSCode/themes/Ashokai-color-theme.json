@@ -20,7 +20,7 @@
         "input.background": "#171A21",
         "input.border": "#2b2b2b",
         "input.foreground": "#DFE8F0",
-        "inputOption.activeBorder" : "#ff0000",
+        "inputOption.activeBorder" : "#1073ed",
         "inputValidation.errorBackground": "#F0717190",
         "inputValidation.errorBorder": "#F07171",
         "inputValidation.errorForeground": "#14161c",
