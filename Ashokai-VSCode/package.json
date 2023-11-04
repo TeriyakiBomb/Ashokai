@@ -3,13 +3,29 @@
   "displayName": "Ashokai",
   "description": "A fancy and colourful theme for fancy people",
   "icon": "images/logo.png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.84.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "colorful",
+    "Monokai",
+    "contrast",
+    "Catppuccin"
+  ],
+  "sponsor": {
+    "url": "https://ko-fi.com/ashteriyaki"
+  },
+  "author": "Teriyaki",
+  "publisher": "Teriyaki",
+	"license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/TeriyakiBomb/Ashokai"
+	},
   "contributes": {
     "themes": [
       {
