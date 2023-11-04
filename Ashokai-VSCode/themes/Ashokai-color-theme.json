@@ -195,6 +195,18 @@
 			}
 		},
 		{
+			"scope": ["variable.statamic"],
+			"settings": {
+				"foreground": "#C8B6FF"
+			}
+		},
+		{
+			"scope": "meta.embedded.block.statamic",
+			"settings": {
+				"foreground": "#7ac3ff"
+			}
+		},
+		{
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
