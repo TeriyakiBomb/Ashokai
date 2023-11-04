@@ -3,6 +3,8 @@
 	"colors": {
 		"focusBorder": "#574941",
         "foreground": "#EEE3DC",
+		"icon.foreground": "#eaccba",
+		"widget.border": "#574941",
         "widget.shadow": "#1C1713",
         "selection.background": "#574941",
         "errorForeground": "#F07171",

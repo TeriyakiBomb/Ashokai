@@ -3,6 +3,7 @@
 	"colors": {
 		"focusBorder": "#374B6B",
         "foreground": "#DFE8F0",
+		"icon.foreground": "#97b2db",
         "widget.shadow": "#1b1722",
         "selection.background": "#374B6B",
         "errorForeground": "#F07171",
