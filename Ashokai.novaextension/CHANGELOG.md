@@ -1,3 +1,9 @@
+## Version 1.8.1
+
+### NEW! 🌟
+
+- More granular javascript highlighting, nice.
+
 ## Version 1.8 🥛👞
 
 ### NEW! 🌟
