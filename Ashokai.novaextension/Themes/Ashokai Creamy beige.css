@@ -14,6 +14,7 @@ meta.titlebar {
 }
 meta.titlebar.inactive {
   background-color: #ebe3d8;
+  color: hsl(259, 17%, 10%);
 }
 meta.button {
   background: linear-gradient(
@@ -189,6 +190,21 @@ identifier.key {
 identifier.argument {
   color: hsl(39, 100%, 45%);
   font-style: italic;
+}
+javascript.identifier {
+  color: hsl(39, 100%, 45%);
+}
+comment.doctag {
+  color: hsl(205, 100%, 38%);
+}
+identifier.type.constructor {
+  color: hsl(311, 73%, 45%);
+}
+identifier.type.declare {
+  color: hsl(133, 73%, 70%);
+}
+identifier.variable.builtin {
+  color: hsl(205, 100%, 38%);
 }
 
 /* Strings */

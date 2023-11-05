@@ -388,7 +388,7 @@ antlers.tag.framework.variable.end {
   color: hsl(207, 100%, 74%);
 }
 antlers.identifier.argument {
-  color: hsl(272, 100%, 72%);
+  color: hsl(255, 100%, 86%);
 }
 
 /* Twig and liquid */
@@ -428,6 +428,12 @@ elixir.string.block {
   color: hsl(211, 20%, 50%);
 }
 elixir.identifier.function.name {
+  color: hsl(256, 51%, 68%);
+}
+elixir.string.key {
+  color: rgb(80, 206, 80);
+}
+module {
   color: hsl(256, 51%, 68%);
 }
 

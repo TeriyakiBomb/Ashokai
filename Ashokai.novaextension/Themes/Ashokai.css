@@ -380,7 +380,7 @@ antlers.tag.framework.variable.end {
   color: hsl(207, 100%, 74%);
 }
 antlers.identifier.argument {
-  color: hsl(311, 73%, 70%);
+  color: hsl(255, 100%, 86%);
 }
 
 /* Twig and liquid */

@@ -182,6 +182,21 @@ identifier.argument {
   color: hsl(39, 96%, 69%);
   font-style: italic;
 }
+javascript.identifier {
+  color: hsl(39, 96%, 69%);
+}
+comment.doctag {
+  color: hsl(207, 100%, 74%);
+}
+identifier.type.constructor {
+  color: hsl(311, 73%, 70%);
+}
+identifier.type.declare {
+  color: hsl(143, 47%, 50%);
+}
+identifier.variable.builtin {
+  color: hsl(207, 100%, 74%);
+}
 
 /* Strings */
 string {

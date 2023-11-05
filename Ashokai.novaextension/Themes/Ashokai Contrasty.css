@@ -182,6 +182,21 @@ identifier.argument {
   color: hsl(39, 96%, 69%);
   font-style: italic;
 }
+javascript.identifier {
+  color: hsl(39, 96%, 69%);
+}
+comment.doctag {
+  color: hsl(207, 100%, 69%);
+}
+identifier.type.constructor {
+  color: hsl(311, 73%, 75%);
+}
+identifier.type.declare {
+  color: hsl(133, 88%, 58%);
+}
+identifier.variable.builtin {
+  color: hsl(207, 100%, 69%);
+}
 
 /* Strings */
 string {
@@ -363,7 +378,7 @@ antlers.tag.framework.variable.end {
   color: hsl(207, 100%, 69%);
 }
 antlers.identifier.argument {
-  color: hsl(311, 73%, 75%);
+  color: hsl(255, 100%, 86%);
 }
 
 /* Twig and liquid */
