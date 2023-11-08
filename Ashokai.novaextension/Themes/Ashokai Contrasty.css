@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: dark;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: hsl(218, 100%, 33%);
 }
 meta.window {
   background-color: hsl(225, 17%, 9%);
@@ -24,13 +24,13 @@ meta.button.highlighted {
   background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.button.selected {
-  background: linear-gradient(hsl(186, 71%, 69%), hsl(186, 71%, 44%));
+  background: linear-gradient(hsl(205, 100%, 63%), hsl(226, 100%, 50%));
   color: hsl(0, 0%, 100%);
 }
 meta.button.highlighted.selected {
   background: linear-gradient(
-    hsla(186, 71%, 69%, 0.75),
-    hsla(186, 71%, 44%, 0.75)
+    hsla(221, 71%, 69%, 0.75),
+    hsla(226, 71%, 44%, 0.75)
   );
   color: hsl(0, 0%, 100%);
 }

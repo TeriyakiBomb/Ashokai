@@ -16,13 +16,19 @@ meta.titlebar.inactive {
   background-color: hsl(257, 16%, 8%);
 }
 meta.button {
-  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
-  border-color: hsla(0, 0%, 0%, 0.2);
+  background: linear-gradient(
+    hsla(253, 10%, 60%, 0.25),
+    hsla(253, 20%, 50%, 0.2)
+  );
+  border-color: hsla(253, 0%, 0%, 0.2);
   color: hsl(253, 42%, 83%);
   text-shadow: none;
 }
 meta.button.highlighted {
-  background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
+  background: linear-gradient(
+    hsla(253, 10%, 60%, 0.5),
+    hsla(253, 20%, 50%, 0.1)
+  );
   text-shadow: none;
 }
 meta.button.selected {
@@ -48,10 +54,10 @@ meta.textfield.highlighted {
 }
 meta.document.button {
   background: linear-gradient(
-    hsla(253, 3%, 60%, 0.25),
-    hsla(253, 10%, 50%, 0.2)
+    hsla(253, 20%, 60%, 0.4),
+    hsla(253, 20%, 50%, 0.3)
   );
-  border-color: hsla(0, 0%, 0%, 0.2);
+  border-color: hsla(253, 10%, 0%, 0.2);
 }
 meta.document.button.disabled {
   background-color: transparent;
