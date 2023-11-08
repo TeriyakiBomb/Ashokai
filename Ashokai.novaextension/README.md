@@ -4,7 +4,9 @@
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/variants.png)
 
-## Ashokai comes with variants 🩶🖤💜🤎🤍
+## Ashokai comes with variants
+
+🩶🖤💜🤎🤍
 
 ### Ashokai
 
@@ -45,5 +47,3 @@ If you've got any suggestions for specific highlighting, I'm all ears, open up a
 ## Acknowledgements
 
 Ashokai is influenced by [Nebula](https://github.com/tjkohli/Nebula.novaextension), [Monokai pro](https://monokai.pro) and [Catppuccin](https://catppuccin-website.vercel.app).
-
-<sup>⋆I'm Old Gregg.</sup>

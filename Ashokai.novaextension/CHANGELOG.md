@@ -1,3 +1,10 @@
+## Version 1.8.2
+
+### NEW! 🌟
+
+- Minor improvements for elixir
+- Improved buttons in urple and contrasty
+
 ## Version 1.8.1
 
 ### NEW! 🌟
