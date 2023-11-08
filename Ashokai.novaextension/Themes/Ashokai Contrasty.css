@@ -420,6 +420,12 @@ elixir.string.block {
 elixir.identifier.function.name {
   color: hsl(256, 51%, 68%);
 }
+elixir.string.key {
+  color: rgb(80, 206, 80);
+}
+module {
+  color: hsl(256, 51%, 68%);
+}
 
 /*  PHP  */
 
