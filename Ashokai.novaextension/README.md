@@ -1,6 +1,6 @@
 <img width="400px" alt="Ashokai logo" src="https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/logo.png"></img>
 
-**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for **Elixir**, **PHP**, **Blade**, **[Advanced PHP](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/)**, **Javascript** **JSX**, **Astro**, **Twig**, **Liquid**, **SQL** and **Statamic Antlers.**
+**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. Colourful and contrasty, it has a few extra bits sprinkled in for **Elixir**, **PHP**, **Blade**, **[Advanced PHP](https://extensions.panic.com/extensions/dennisosaj/dennisosaj.advancedPHP/)**, **Javascript**, **JSX**, **Astro**, **Twig**, **Liquid**, **SQL** and **Statamic Antlers.**
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/variants.png)
 

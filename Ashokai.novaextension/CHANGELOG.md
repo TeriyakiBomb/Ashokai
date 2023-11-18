@@ -1,3 +1,9 @@
+## Version 1.8.3
+
+### FIXES! 🐞
+
+- Fixed issues with elixir highlighting in beige theme
+
 ## Version 1.8.2
 
 ### NEW! 🌟
