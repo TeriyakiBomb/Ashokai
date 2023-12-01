@@ -188,11 +188,11 @@ identifier.key {
   color: hsl(27, 38%, 38%);
 }
 identifier.argument {
-  color: hsl(39, 100%, 45%);
+  color: hsl(133, 81%, 24%);
   font-style: italic;
 }
 javascript.identifier {
-  color: hsl(39, 100%, 45%);
+  color: hsl(133, 81%, 24%);
 }
 comment.doctag {
   color: hsl(205, 100%, 38%);
@@ -209,7 +209,7 @@ identifier.variable.builtin {
 
 /* Strings */
 string {
-  color: hsl(26, 90%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 string.key {
   color: hsl(27, 38%, 38%);
@@ -250,7 +250,7 @@ markup.strikethrough {
   color: hsl(27, 38%, 38%);
 }
 markup.list.item {
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 markup.code {
   background-color: hsla(0, 0%, 50%, 0.2);
@@ -340,7 +340,7 @@ javascript.identifier.name {
   color: hsl(27, 38%, 38%);
 }
 javascript.identifier.argument {
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 tag.attribute.name {
   color: hsl(133, 73%, 30%);
@@ -413,7 +413,7 @@ elixir.import.identifier.symbol {
 }
 elixir.identifier.constant,
 elixir.value.list {
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 elixir.identifier.module.submodule {
   color: hsl(253, 100%, 26%);
@@ -468,7 +468,7 @@ advphp.identifier.variable.prefix {
 }
 advphp.identifier.variable.name {
   /* $variable */
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 advphp.identifier.variable.this {
   color: hsl(339, 94%, 43%);
@@ -477,7 +477,7 @@ advphp.wp.keywords,
 advphp.curl.keywords,
 advphp.static.constant {
   /* ABSPATH, WP_ADMIN, ... */
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 advphp.sql.keywords {
   /* SELECT, FROM, WHERE, ... */
@@ -508,7 +508,7 @@ advphp.identifier.parameter {
 }
 advphp.identifier.parameter.name {
   /* my_function($parameter) {} */
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 advphp.identifier.object.name {
   /* Object:: */
@@ -522,16 +522,16 @@ advphp.string {
   color: hsl(27, 38%, 38%);
 }
 advphp.string.singleQuote {
-  color: hsl(26, 90%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 advphp.value.string,
 advphp.string.doubleQuote {
   /* "string", 'string' */
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 advphp.string.backTic {
   /* `string` */
-  color: hsl(30, 100%, 43%);
+  color: hsl(133, 81%, 24%);
 }
 advphp.tag.framework {
   color: hsl(311, 73%, 45%);
@@ -546,5 +546,5 @@ sql.semicolon {
 }
 sql.operator.equals,
 sql.bracket {
-  color: hsl(39, 100%, 45%);
+  color: hsl(133, 81%, 24%);
 }
