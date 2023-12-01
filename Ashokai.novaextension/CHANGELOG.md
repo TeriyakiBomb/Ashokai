@@ -1,3 +1,9 @@
+## Version 1.8.4
+
+### FIXES! 🐞
+
+- Switching out orange for identifiers, strings etc in beige
+
 ## Version 1.8.3
 
 ### FIXES! 🐞
