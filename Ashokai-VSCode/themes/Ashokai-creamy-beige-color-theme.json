@@ -292,7 +292,7 @@
 				"source.jsx punctuation.section.embedded"
 			],
 			"settings": {
-				"foreground": "#FA8D3E"
+				"foreground": "#14842C"
 			}
 		},
 		{
@@ -362,7 +362,7 @@
 			],
 
 			"settings": {
-				"foreground": "#FA8D3E"
+				"foreground": "#14842C"
 			}
 		},
 		{
@@ -631,7 +631,7 @@
 				"meta.tag string"
 			],
 			"settings": {
-				"foreground": "#DB6D00"
+				"foreground": "#14842C"
 			}
 		},
 		{
@@ -641,7 +641,7 @@
 			"constant.other.symbol.ruby"
 			],
 			"settings": {
-				"foreground": "#DB6D00"
+				"foreground": "#14842C"
 			}
 		},
 		{

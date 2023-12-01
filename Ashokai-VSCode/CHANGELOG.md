@@ -1,4 +1,9 @@
-# Change Log
+# Changelog
+
+## [0.2.0]
+
+- Replaced orange with green in beige for improving legibility, more feedback is super welcome for beige specifically.
+
 
 ## [0.1.0]
 
