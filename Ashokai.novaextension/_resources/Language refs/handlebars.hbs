@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>{{pageTitle}}</title>
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+
+    {{#if showSubtitle}}
+      <h2>{{subtitle}}</h2>
+    {{/if}}
+
+    <ul>
+      {{#each items}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul>
+
+    {{#unless loggedIn}}
+      <p>Please log in to access the content.</p>
+    {{/unless}}
+
+    {{#with user}}
+      <p>Welcome, {{name}}! Your email is {{email}}.</p>
+    {{/with}}
+
+    <footer>
+      &copy;
+      {{currentYear}}
+      My Website
+    </footer>
+  </body>
+</html>
