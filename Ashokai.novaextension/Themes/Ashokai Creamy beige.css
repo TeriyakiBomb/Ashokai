@@ -397,6 +397,7 @@ liquid.tag.framework {
   color: hsl(205, 100%, 38%);
 }
 twig.keyword,
+handlebars.keyword,
 liquid.keyword {
   color: hsl(311, 73%, 45%);
 }
@@ -547,4 +548,12 @@ sql.semicolon {
 sql.operator.equals,
 sql.bracket {
   color: hsl(133, 81%, 24%);
+}
+
+/* Handlebars */
+handlebars.processing {
+  color: hsl(205, 100%, 38%);
+}
+handlebars.identifier.constant {
+  color: hsl(27, 38%, 38%);
 }
