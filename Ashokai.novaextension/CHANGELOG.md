@@ -1,3 +1,9 @@
+## Version 1.8.5 🧔
+
+### NEW! 🌟
+
+- Added support for Handlebars
+
 ## Version 1.8.4
 
 ### FIXES! 🐞
