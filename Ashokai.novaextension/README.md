@@ -6,7 +6,7 @@
 
 ## Ashokai comes with variants
 
-🩶🖤💜🤎🤍
+🩶🖤💜🤎💚🤍
 
 ### Ashokai
 
@@ -32,6 +32,12 @@ You know a colour that doesn't get enough love? Brown. Brown is awesome. This ve
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/brahn.png)
 
+### Ashokai - Evermoor
+
+A calm and serene foresty green.✢
+
+![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/evermoor.png)
+
 ### Ashokai - Creamy beige
 
 A warm, light beige variant. A bit like Bailey's. In fact, it's as close as you can get to Bailey's without getting your eyes wet.⋆
@@ -47,3 +53,6 @@ If you've got any suggestions for specific highlighting, I'm all ears, open up a
 ## Acknowledgements
 
 Ashokai is influenced by [Nebula](https://github.com/tjkohli/Nebula.novaextension), [Monokai pro](https://monokai.pro) and [Catppuccin](https://catppuccin-website.vercel.app).
+
+✢Spelled this way to avoid Tay Tay.
+⋆ I'm Old Gregg!

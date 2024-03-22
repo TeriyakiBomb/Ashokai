@@ -1,3 +1,9 @@
+## Version 1.9 🌳🌳
+
+### NEW! 🌟
+
+- Added a new theme variant, **evermoor**! (It's all forestlike and nature-ey and stuff)
+
 ## Version 1.8.6
 
 ### FIXES! 🐞
