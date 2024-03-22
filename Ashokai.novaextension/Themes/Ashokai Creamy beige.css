@@ -434,7 +434,8 @@ elixir.identifier.function.name {
 elixir.string.key {
   color: hsl(133, 73%, 30%);
 }
-module {
+module,
+value.symbols {
   color: hsl(256, 51%, 68%);
 }
 

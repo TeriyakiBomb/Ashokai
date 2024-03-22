@@ -1,3 +1,9 @@
+## Version 1.8.6
+
+### FIXES! 🐞
+
+value.symbols highlighting for elixir (Might be other knock on effects, let me know if you spot any negatives)
+
 ## Version 1.8.5 🧔
 
 ### NEW! 🌟
