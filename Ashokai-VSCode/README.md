@@ -12,7 +12,7 @@ The OG. Vanilla. Well, it's dark, but you know what I mean.
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/ashokai.png)
 
-### Ashokai - Contrasty (COMING SOON)
+### Ashokai - Contrasty
 
 Which has more contrast.
 

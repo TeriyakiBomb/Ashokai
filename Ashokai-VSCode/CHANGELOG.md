@@ -1,5 +1,8 @@
 # Changelog
 
+#### [1.0.0]
+- Added contrasty theme variant (More to come)
+
 ## [0.2.0]
 
 - Replaced orange with green in beige for improving legibility, more feedback is super welcome for beige specifically.

@@ -20,24 +20,19 @@
       "windowText": "text",
       "Button.foreground": "text",
       "Button.default.endBackground": "button1",
-      "Button.default.startBackground": "button2",
-      "TabbedPane.underlineColor": "#ff0000"
+      "Button.default.startBackground": "button2"
     },
 
     "Panel" : {
       "background" : "bg2"
-
     },
 
     "ToolWindow":{
       "background": "bg2",
-      "Header.background": "#ff0000",
       "Header.inactiveBackground": "bg2",
       "HeaderTab.hoverBackground": "bg2"
     },
-      "MainWindow.Tab.foreground": "#ff0000",
     "EditorTabs": {
-      "selectedForeground": "text",
       "underlinedTabBackground": "editorBG",
       "background": "bg",
       "underlineColor": "editorBG"
@@ -52,9 +47,7 @@
       }
     },
     "CheckBox": {
-      "background" : "bg2",
-      "select": "#800000",
-      "Checkbox.Foreground.Selected.Dark" : "#800000"
+      "background" : "bg2"
     }
   },
   "icons": {

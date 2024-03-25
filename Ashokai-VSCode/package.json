@@ -3,7 +3,7 @@
   "displayName": "Ashokai",
   "description": "A fancy and colourful theme for fancy people",
   "icon": "images/logo.png",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -32,6 +32,11 @@
         "label": "Ashokai",
         "uiTheme": "vs-dark",
         "path": "./themes/Ashokai-color-theme.json"
+      },
+      {
+        "label": "Ashokai Contrasty",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ashokai-contrasty-color-theme.json"
       },
       {
         "label": "Ashokai Urple",
