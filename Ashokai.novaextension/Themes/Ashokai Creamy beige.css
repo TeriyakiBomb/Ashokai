@@ -24,6 +24,9 @@ meta.button {
   border-color: hsla(34, 22%, 54%, 0.25);
   color: hsl(33, 10%, 40%);
 }
+meta.button.disabled {
+  color: hsla(33, 10%, 40%, 0.7);
+}
 meta.button.highlighted {
   background: linear-gradient(hsl(34, 32%, 64%), hsl(34, 22%, 54%));
 }
@@ -37,30 +40,33 @@ meta.button.highlighted.selected {
   color: hsl(36, 37%, 93%);
 }
 meta.textfield {
-  background-color: hsl(40, 39%, 96%);
+  background-color: hsla(34, 32%, 95%, 0.7);
   border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.textfield.highlighted {
-  background-color: hsl(40, 39%, 96%);
+  background-color: hsla(34, 32%, 95%, 0.9);
   border-color: hsla(34, 22%, 54%, 0.5);
 }
 meta.document.button {
-  background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
+  background: linear-gradient(
+    hsla(34, 32%, 64%, 0.25),
+    hsla(34, 22%, 54%, 0.25)
+  );
   border-color: hsla(0, 0%, 0%, 0.2);
 }
 meta.document.button.disabled {
   background-color: transparent;
-  color: hsla(0, 0%, 64%, 0.5);
+  color: hsla(33, 10%, 40%, 0.7);
 }
 meta.document.button.highlighted {
   background: linear-gradient(hsla(0, 0%, 60%, 0.5), hsla(0, 0%, 50%, 0.1));
 }
 meta.document.textfield {
-  background-color: hsla(0, 0%, 50%, 0.15);
-  border-color: hsla(0, 0%, 0%, 0.2);
+  background-color: hsla(34, 32%, 95%, 0.4);
+  border-color: hsla(34, 22%, 54%, 0.5);
 }
 meta.document.textfield.highlighted {
-  background-color: hsl(0, 0%, 80%);
+  background-color: hsla(34, 32%, 100%, 0.9);
   border-color: hsla(0, 0%, 60%, 0.5);
 }
 
