@@ -5,12 +5,12 @@ meta {
 }
 meta.window {
   background-color: hsl(32, 32%, 87%);
-  border-color: rgba(163, 140, 110, 0.25);
+  border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.titlebar {
   color: hsl(33, 100%, 33%);
   background: hsl(32, 32%, 85%);
-  border-color: rgba(163, 140, 110, 0.25);
+  border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.titlebar.inactive {
   background-color: #ebe3d8;
@@ -18,33 +18,33 @@ meta.titlebar.inactive {
 }
 meta.button {
   background: linear-gradient(
-    rgba(192, 166, 132, 0.25),
-    rgba(163, 140, 110, 0.25)
+    hsla(34, 32%, 64%, 0.25),
+    hsla(34, 22%, 54%, 0.25)
   );
-  border-color: rgba(163, 140, 110, 0.25);
+  border-color: hsla(34, 22%, 54%, 0.25);
   color: hsl(33, 10%, 40%);
 }
 meta.button.highlighted {
-  background: linear-gradient(
-    rgba(192, 166, 132, 0.5),
-    rgba(163, 140, 110, 0.5)
-  );
+  background: linear-gradient(hsla(34, 32%, 64%, 0.5), hsla(34, 22%, 54%, 0.5));
 }
 meta.button.selected {
   background: linear-gradient(#29b6c7, #13555d);
   color: hsl(33, 10%, 21%);
 }
 meta.button.highlighted.selected {
-  background: linear-gradient(rgba(41, 182, 199, 0.75), rgba(19, 85, 93, 0.75));
+  background: linear-gradient(
+    hsla(186, 66%, 47%, 0.75),
+    hsla(186, 66%, 22%, 0.75)
+  );
   color: hsl(33, 10%, 21%);
 }
 meta.textfield {
   background-color: #f8f5ef;
-  border-color: rgba(163, 140, 110, 0.25);
+  border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.textfield.highlighted {
   background-color: #f8f5ef;
-  border-color: rgba(163, 140, 110, 0.5);
+  border-color: hsla(34, 22%, 54%, 0.5);
 }
 meta.document.button {
   background: linear-gradient(hsla(0, 0%, 60%, 0.25), hsla(0, 0%, 50%, 0.2));
@@ -69,32 +69,29 @@ meta.document.textfield.highlighted {
 /* Document styles */
 meta.document {
   background-color: hsl(36, 37%, 93%);
-  border-color: rgba(163, 140, 110, 0.25);
+  border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.document.button {
   background: linear-gradient(
-    rgba(192, 166, 132, 0.25),
-    rgba(163, 140, 110, 0.25)
+    hsla(34, 32%, 64%, 0.25),
+    hsla(34, 22%, 54%, 0.25)
   );
-  border-color: rgba(163, 140, 110, 0.25);
+  border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.document.button.disabled {
   background-color: transparent;
-  color: rgba(122, 122, 122, 0.5);
+  color: hsla(0, 0%, 48%, 0.5);
 }
 meta.document.button.highlighted {
-  background: linear-gradient(
-    rgba(192, 166, 132, 0.5),
-    rgba(163, 140, 110, 0.5)
-  );
+  background: linear-gradient(hsla(34, 32%, 64%, 0.5), hsla(34, 22%, 54%, 0.5));
 }
 meta.document.textfield {
-  background-color: rgba(192, 166, 132, 0.15);
-  border-color: rgba(163, 140, 110, 0.25);
+  background-color: hsla(34, 32%, 64%, 0.15);
+  border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.document.textfield.highlighted {
   background-color: #f8f5ef;
-  border-color: rgba(163, 140, 110, 0.5);
+  border-color: hsla(34, 22%, 54%, 0.5);
 }
 
 /* Text ------------------------------- */
