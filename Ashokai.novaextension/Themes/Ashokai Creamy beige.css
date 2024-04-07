@@ -1,7 +1,7 @@
 meta {
   -theme-interface-style: light;
   -theme-vibrancy: none;
-  -theme-accent-color: auto;
+  -theme-accent-color: hsl(33, 100%, 33%);
 }
 meta.window {
   background-color: hsl(32, 32%, 87%);
@@ -25,18 +25,16 @@ meta.button {
   color: hsl(33, 10%, 40%);
 }
 meta.button.highlighted {
-  background: linear-gradient(hsla(34, 32%, 64%, 0.5), hsla(34, 22%, 54%, 0.5));
+  background: linear-gradient(hsl(34, 32%, 64%), hsl(34, 22%, 54%));
 }
 meta.button.selected {
-  background: linear-gradient(#29b6c7, #13555d);
-  color: hsl(33, 10%, 21%);
+  background: linear-gradient(hsl(33, 100%, 33%), hsl(33, 100%, 28%));
+  color: hsl(36, 37%, 93%);
+  text-shadow: none;
 }
 meta.button.highlighted.selected {
-  background: linear-gradient(
-    hsla(186, 66%, 47%, 0.75),
-    hsla(186, 66%, 22%, 0.75)
-  );
-  color: hsl(33, 10%, 21%);
+  background: linear-gradient(hsl(33, 100%, 33%), hsl(33, 100%, 28%));
+  color: hsl(36, 37%, 93%);
 }
 meta.textfield {
   background-color: #f8f5ef;
@@ -72,10 +70,7 @@ meta.document {
   border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.document.button {
-  background: linear-gradient(
-    hsla(34, 32%, 64%, 0.25),
-    hsla(34, 22%, 54%, 0.25)
-  );
+  background: linear-gradient(hsl(34, 32%, 64%), hsla(34, 22%, 54%, 0.25));
   border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.document.button.disabled {
