@@ -13,7 +13,7 @@ meta.titlebar {
   border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.titlebar.inactive {
-  background-color: #ebe3d8;
+  background-color: hsl(35, 32%, 88%);
   color: hsl(259, 17%, 10%);
 }
 meta.button {
@@ -37,11 +37,11 @@ meta.button.highlighted.selected {
   color: hsl(36, 37%, 93%);
 }
 meta.textfield {
-  background-color: #f8f5ef;
+  background-color: hsl(40, 39%, 96%);
   border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.textfield.highlighted {
-  background-color: #f8f5ef;
+  background-color: hsl(40, 39%, 96%);
   border-color: hsla(34, 22%, 54%, 0.5);
 }
 meta.document.button {
@@ -85,7 +85,7 @@ meta.document.textfield {
   border-color: hsla(34, 22%, 54%, 0.25);
 }
 meta.document.textfield.highlighted {
-  background-color: #f8f5ef;
+  background-color: hsl(40, 39%, 96%);
   border-color: hsla(34, 22%, 54%, 0.5);
 }
 
