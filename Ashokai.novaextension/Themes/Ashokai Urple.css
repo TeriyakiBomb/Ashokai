@@ -26,13 +26,13 @@ meta.button {
 }
 meta.button.highlighted {
   background: linear-gradient(
-    hsla(253, 10%, 60%, 0.5),
+    hsla(253, 10%, 60%, 0.3),
     hsla(253, 20%, 50%, 0.1)
   );
   text-shadow: none;
 }
 meta.button.selected {
-  background: linear-gradient(hsl(253, 71%, 69%), hsl(253, 71%, 44%));
+  background: linear-gradient(hsl(253, 50%, 45%), hsl(253, 50%, 40%));
   color: hsl(0, 0%, 100%);
   text-shadow: none;
 }
