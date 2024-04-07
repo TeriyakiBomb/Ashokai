@@ -1,3 +1,11 @@
+## Version 1.9.1
+
+### FIXES! 🐞
+
+- Input style improvements for Creamy Beige
+- Fixed button styles in Creamy Beige
+- Less shouty sidebar buttons in Urple
+
 ## Version 1.9 🌳🌳
 
 ### NEW! 🌟
