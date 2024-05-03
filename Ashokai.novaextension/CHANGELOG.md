@@ -1,3 +1,9 @@
+## Version 1.9.2
+
+### FIXES! 🐞
+
+- Caught issue where in-development theme was shipped in 1.9.1 oops.
+
 ## Version 1.9.1
 
 ### FIXES! 🐞
