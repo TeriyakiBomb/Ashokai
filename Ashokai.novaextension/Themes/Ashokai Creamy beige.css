@@ -126,10 +126,10 @@ meta.gutter.selected {
 
 /* Syntax styles ------------------------------- */
 keyword {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 comment {
-  color: hsl(35, 42%, 70%);
+  color: hsl(35, 42%, 65%);
 }
 processing {
   color: hsl(210, 20%, 43%);
@@ -141,7 +141,7 @@ bracket {
   color: hsl(27, 44%, 70%);
 }
 operator {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 invalid {
   background-color: hsl(355, 82%, 96%);
@@ -180,7 +180,7 @@ identifier.property,
 identifier.decorator,
 identifier.function,
 identifier.method {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 identifier.key {
   color: hsl(27, 38%, 38%);
@@ -193,16 +193,16 @@ javascript.identifier {
   color: hsl(133, 81%, 24%);
 }
 comment.doctag {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 identifier.type.constructor {
   color: hsl(311, 73%, 45%);
 }
 identifier.type.declare {
-  color: hsl(133, 73%, 70%);
+  color: hsl(183, 100%, 25%);
 }
 identifier.variable.builtin {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 
 /* Strings */
@@ -230,14 +230,14 @@ cdata {
 
 /* Markup */
 markup.heading {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
   font-weight: bold;
 }
 markup.line {
-  color: hsl(60, 50%, 75%);
+  color: hsl(60, 24%, 38%);
 }
 markup.bold {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
   font-weight: bold;
 }
 markup.italic {
@@ -277,10 +277,10 @@ definition.method method.name {
 
 /* Tags */
 tag {
-  color: hsl(166, 40%, 78%);
+  color: hsl(166, 100%, 23%);
 }
 tag.bracket {
-  color: hsl(27, 32%, 70%);
+  color: hsl(27, 32%, 65%);
 }
 tag.framework {
   color: hsl(311, 73%, 45%);
@@ -312,13 +312,13 @@ style.value.number {
 
 /* HTML */
 html.tag {
-  color: hsl(27, 32%, 70%);
+  color: hsl(27, 32%, 65%);
 }
 tag.name {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 html.tag.name {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 
 /* JS */
@@ -326,13 +326,13 @@ javascript.block {
   color: hsl(210, 20%, 43%);
 }
 javascript.definition.function {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 javascript.definition.function.anonymous {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 javascript.identifier.method {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 javascript.identifier.name {
   color: hsl(27, 38%, 38%);
@@ -354,7 +354,7 @@ typescript.identifier.property {
 
 /* JSX */
 jsx.tag {
-  color: hsl(27, 32%, 70%);
+  color: hsl(27, 32%, 65%);
 }
 jsx.tag.name {
   color: hsl(133, 73%, 30%);
@@ -374,16 +374,16 @@ astro.tag.close {
 }
 astro.tag.open.name,
 astro.tag.close.name {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 astro.value.variable.bracket {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 
 /* Antlers */
 antlers.tag.framework.variable.start,
 antlers.tag.framework.variable.end {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 antlers.identifier.argument {
   color: hsl(311, 73%, 45%);
@@ -392,7 +392,7 @@ antlers.identifier.argument {
 /* Twig and liquid */
 twig.tag.framework,
 liquid.tag.framework {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 twig.keyword,
 handlebars.keyword,
@@ -404,7 +404,7 @@ liquid.keyword {
 elixir.definition.function,
 elixir.identifier.name,
 elixir.keyword {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 elixir.import,
 elixir.import.identifier.symbol {
@@ -421,7 +421,7 @@ elixir.identifier {
   color: hsl(31, 100%, 40%);
 }
 elixir.definition.function {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 elixir.string.block {
   color: hsl(210, 20%, 43%);
@@ -445,11 +445,11 @@ keyword.modifier {
 /* Advanced PHP */
 advphp.static.condition {
   /* if, else, elseif, foreach, ... */
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 advphp.static.processor {
   /* echo, return, print, ... */
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 advphp.static.declaration {
   /* new, public, private, ... */
@@ -457,11 +457,11 @@ advphp.static.declaration {
 }
 advphp.static.import {
   /* include, require, ... */
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 advphp.static.wordOperator {
   /* AND, OR, XOR, ... */
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 advphp.identifier.variable.prefix {
   color: hsl(311, 73%, 45%);
@@ -471,7 +471,7 @@ advphp.identifier.variable.name {
   color: hsl(133, 81%, 24%);
 }
 advphp.identifier.variable.this {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 advphp.wp.keywords,
 advphp.curl.keywords,
@@ -481,11 +481,11 @@ advphp.static.constant {
 }
 advphp.sql.keywords {
   /* SELECT, FROM, WHERE, ... */
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 advphp.operator {
   /* +, -, /, >, ... */
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 advphp.semicolon {
   /* ; */
@@ -496,7 +496,7 @@ advphp.identifier.function.keyword {
 }
 advphp.identifier.function.name {
   /* my_function() */
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 advphp.identifier.parameter.prefix {
   /* my_function($parameter) {} */
@@ -539,7 +539,7 @@ advphp.tag.framework {
 
 /* SQL */
 sql.identifier {
-  color: hsl(339, 94%, 43%);
+  color: hsl(339, 94%, 41%);
 }
 sql.semicolon {
   color: hsl(210, 20%, 43%);
@@ -551,7 +551,7 @@ sql.bracket {
 
 /* Handlebars */
 handlebars.processing {
-  color: hsl(205, 100%, 38%);
+  color: hsl(205, 100%, 35%);
 }
 handlebars.identifier.constant {
   color: hsl(27, 38%, 38%);
