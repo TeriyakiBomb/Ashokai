@@ -1,3 +1,9 @@
+## Version 1.9.3
+
+### FIXES! 🐞
+
+- Fixed a load of legibility issues with Creamy Beige.
+
 ## Version 1.9.2
 
 ### FIXES! 🐞
