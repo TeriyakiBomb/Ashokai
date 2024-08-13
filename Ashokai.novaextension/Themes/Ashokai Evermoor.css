@@ -240,6 +240,7 @@ cdata {
 /* Markup */
 markup.heading {
   color: hsl(339, 94%, 65%);
+  font-weight: bold;
 }
 markup.line {
   color: hsl(60, 50%, 75%);
