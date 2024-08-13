@@ -1,3 +1,9 @@
+## Version 1.9.4
+
+### FIXES! 🐞
+
+- All variants now have bold headings in markdown files
+
 ## Version 1.9.3
 
 ### FIXES! 🐞
