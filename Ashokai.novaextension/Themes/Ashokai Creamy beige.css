@@ -144,7 +144,7 @@ operator {
   color: hsl(339, 94%, 41%);
 }
 invalid {
-  background-color: hsl(355, 82%, 96%);
+  background-color: hsl(355, 82%, 70%);
   color: hsl(27, 38%, 38%);
 }
 link {
@@ -349,7 +349,7 @@ typescript.identifier.constant.name {
   color: hsl(133, 73%, 30%);
 }
 typescript.identifier.property {
-  color: hsl(253, 100%, 96%);
+  color: hsl(253, 100%, 70%);
 }
 
 /* JSX */
