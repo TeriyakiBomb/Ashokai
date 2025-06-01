@@ -47,12 +47,16 @@
         "label": "Ashokai Brahn",
         "uiTheme": "vs-dark",
         "path": "./themes/Ashokai-brahn-color-theme.json"
-      }
-      ,
+      },
       {
         "label": "Ashokai Creamy Beige",
         "uiTheme": "vs",
         "path": "./themes/Ashokai-creamy-beige-color-theme.json"
+      },
+  {
+        "label": "Ashokai Evermoor",
+        "uiTheme": "vs",
+        "path": "./themes/Ashokai-evermoor-color-theme.json"
       }
     ]
   }
