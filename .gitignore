@@ -1,2 +1,4 @@
 .DS_Store
 /Ashokai.novaextension/.idea
+/Ashokai.novaextension/.nova/Configuration.json
+/.nova
