@@ -34,3 +34,4 @@ comment =  "#565775"
 
 cursor = "#746F7F"
 cursorline = "#2B2437"
+selection = "#493A77"
