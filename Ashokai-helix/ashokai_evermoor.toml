@@ -1,145 +1,36 @@
 name = "Ashokai Evermoor"
-author = "Teriyaki"
-version = "0.1.0"
+author = "TeriyakiBomb"
+version = "1.0.0"
 
-# Syntax highlighting
-"type" = "purple"
-"constant" = "magenta"
-"identifier" = "pink"
-"constant.numeric" = "magenta"
-"constant.character.escape" = "orange"
-"string" = "orange"
-"string.regexp" = "blue"
-"comment" = "comment"
-"variable" = "yellow"
-"class" = {fg ="purple", modifiers = ["bold"]}
-"variable.builtin" = "blue"
-"variable.parameter" = "yellow"
-"variable.other.member" = "fg0"
-"label" = "purple"
-"punctuation" = "grey1"
-"punctuation.delimiter" = "lightblue"
-"punctuation.bracket" = "blue2"
-"keyword" = "blue"
-"keyword.directive" = "aqua"
-"operator" = "lightblue"
-"function" = "pink"
-"argument" = "fg0"
-"function.builtin" = "blue"
-"function.macro" = "aqua"
-"tag" = "magenta"
-"namespace" = "aqua"
-"attribute" = "green"
-"constructor" = "purple"
-"module" = "blue"
-"special" = "orange"
-"variable.instance_variable" = "magenta"
-
-# Markup
-"markup.heading.marker" = "grey1"
-"markup.heading.1" = { fg = "purple", modifiers = ["bold"] }
-"markup.heading.2" = { fg = "magenta", modifiers = ["bold"] }
-"markup.heading.3" = { fg = "yellow", modifiers = ["bold"] }
-"markup.heading.4" = { fg = "green", modifiers = ["bold"] }
-"markup.heading.5" = { fg = "blue", modifiers = ["bold"] }
-"markup.heading.6" = { fg = "fg0", modifiers = ["bold"] }
-"markup.list" = "red"
-"markup.bold" = { modifiers = ["bold"] }
-"markup.italic" = { modifiers = ["italic"] }
-"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
-"markup.link.text" = "magenta"
-"markup.quote" = "grey1"
-"markup.raw" = "green"
-"markup.raw.block" = { bg = "markup_code" } # Mapped to markup.code background
-
-# Diff
-"diff.plus" = "diffgreen"
-"diff.delta" = "orange"
-"diff.minus" = "red"
-
-# UI elements
-"ui.background" = { bg = "bg0" }
-"ui.background.separator" = "grey" # Keeping original as no direct Nova equivalent
-
-"ui.cursor" = { fg = "bg0", bg = "cursor" }
-"ui.cursor.match" = { fg = "orange", bg = "selection" } # Using ui.selection color for cursor match
-"ui.cursor.insert" = { fg = "bg0", bg = "grey1" } # Keeping original
-"ui.cursor.select" = { fg = "bg0", bg = "blue" }
-"ui.cursor.primary" = {fg = "bg0", bg ="fg0"}
-"ui.cursor.primary.normal" = {fg = "bg0", bg ="fg0"}
-"ui.cursorline.primary" = { bg = "cursorline" }
-"ui.cursorline.secondary" = { bg = "cursorline" }
-
-"ui.selection" = { bg = "selection" }
-"ui.selection.primary" = { bg = "selection" }
-"ui.linenr" = "line_number"
-"ui.linenr.selected" = "line_number_selected"
-"ui.statusline" = { fg = "fg0", bg = "titlebar_bg" } # Using titlebar_bg for statusline bg
-"ui.statusline.inactive" = { fg = "grey", bg = "titlebar_inactive_bg" } # Using titlebar_inactive_bg
-"ui.statusline.normal" = { fg = "bg0", bg = "fg0", modifiers = ["bold"] }
-"ui.statusline.insert" = { fg = "bg0", bg = "green", modifiers = ["bold"] } # Keeping original
-"ui.statusline.select" = { fg = "bg0", bg = "pink", modifiers = ["bold"] } # Keeping original
-"ui.bufferline" = { fg = "grey", bg = "titlebar_bg" } # Using titlebar_bg for bufferline
-"ui.bufferline.active" = { fg = "fg0", bg = "titlebar_bg", modifiers = ["bold"] }
-"ui.popup" = { fg = "grey1", bg = "textfield_bg" } # Using textfield_bg for popup bg
-"ui.window" = { fg = "grey", bg = "bg0" }
-"ui.help" = { fg = "helptext", bg = "helpbg" }
-"ui.text" = "fg0"
-"ui.text.focus" = "fg0"
-"ui.menu" = { fg = "fg0", bg = "bg3" }
-"ui.menu.selected" = { fg = "bg0", bg = "blue", modifiers = ["bold"] }
-"ui.virtual.whitespace" = { fg = "bg3" }
-"ui.virtual.indent-guide" = { fg = "bg3" }
-"ui.virtual.ruler" = { bg = "bg3" }
-
-# Diagnostics
-"hint" = "blue"
-"info" = "aqua"
-"warning" = "yellow"
-"error" = "red"
-"diagnostic" = { underline = { style = "curl" } }
-"diagnostic.hint" = { underline = { color = "blue", style = "dotted" } }
-"diagnostic.info" = { underline = { color = "aqua", style = "dotted" } }
-"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
-"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+inherits = "ashokai"
 
 [palette]
-# UI Colors
-bg0 = "#232F2A" # Nova meta.window background-color
-bg1 = "#322750" # Kept original
-bg2 = "#49385D" # Kept original
-bg3 = "#4B3E64" # Kept original
+bg0 = "#1D2A26"
+bg1 = "#14332A"
+bg2 = "#49385D"
+bg3 = "#3F6457"
+fg0 = "#F8FFF8"
+helptext = "#5E9785"
+helpbg = "#0F241E"
+grey = "#70697D"
+grey1 = "#667E99"
+red = "#FF5D5D"
+yellow = "#FBC664"
+green = "#7AEA92"
+blue = "#7AC3FF"
+blue2 = "#4E6A97"
+lightblue = "#B0DDD2"
+aqua = "#5DB1B1"
+orange = "#FF9647"
+purple = "#9983D7"
+magenta = "#F94786"
+pink = "#F9518C"
 
-fg0 = "#F8FFF8" # Nova meta.text color
-helptext="#9485b9" # Kept original
-helpbg="#130F1C" # Kept original
+diffgreen = "#5B7753"
 
-grey = "#70697D" # Kept original
-grey1 = "#667E99" # Kept original
-red = "#FF5D5D" # Kept original, matches Nova invalid background color
-yellow = "#FBC664" # Kept original
-green = "#7AEA92" # Kept original
-blue = "#7AC3FF" # Kept original
-blue2 = "#4E6A97" # Kept original
-lightblue = "#B0DDD2" # Kept original
-aqua = "#5DB1B1" # Kept original
-orange = "#FF9647" # Kept original
-purple = "#59519E" # Kept original
-magenta = "#F94786" # Kept original
-pink = "#F9518C" # Kept original
+line_number = "#32403B"
+line_number_selected = "#5E8F81"
+comment = "#6C9286"
 
-diffgreen = "#5B7753" # Kept original
-
-line_number = "#32403B" # Nova meta.gutter color
-line_number_selected = "#5E8F81" # Nova meta.gutter.selected color
-comment = "#668579" # Nova comment color
-
-cursor = "#5E8F81" # Nova meta.cursor background-color (approximated for visibility)
-cursorline = "#3F6457" # Nova meta.text.selected background-color (used for cursorline)
-
-# Additional Nova-specific UI colors mapped to existing Helix palette names
-selection = "#3F6457" # Nova meta.text.selected background-color
-titlebar_bg = "#26302B" # Nova meta.titlebar background-color
-titlebar_inactive_bg = "#202A25" # Nova meta.titlebar.inactive background-color
-textfield_bg = "#2A3A35" # Nova meta.textfield background-color
-markup_code = "#474747" # Nova markup.code background-color
+cursor = "#5E8F81"
+cursorline = "#1E302A"

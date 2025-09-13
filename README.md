@@ -1,8 +1,8 @@
 <img width="400px" alt="Ashokai logo" src="https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/logo.png"></img>
 
-**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot. 
+**Ashokai** is a mixture of the awesome Nebula theme, Monokai and a bit of Catppuccin to boot.
 
-It's available for Panic Nova, Visual Studio Code and with any luck, versions for Jetbrains IDEs and Zed on the way
+It's available for Panic Nova, Visual Studio Code, helix and with any luck, versions for Jetbrains IDEs and Zed on the way
 
 ![](https://raw.githubusercontent.com/TeriyakiBomb/Ashokai/main/Ashokai.novaextension/_resources/variants.png)
 
