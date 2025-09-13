@@ -80,9 +80,9 @@ version = "1.0.0"
 "ui.statusline.select" = { fg = "bg0", bg = "pink", modifiers = ["bold"] }
 "ui.bufferline" = { fg = "grey", bg = "bg1" }
 "ui.bufferline.active" = { fg = "fg0", bg = "bg3", modifiers = ["bold"] }
-"ui.popup" = { fg = "grey1", bg = "bg2" }
+"ui.popup" = { fg = "helptext", bg = "bg3" }
 "ui.window" = { fg = "grey", bg = "bg0" }
-"ui.help" = { fg = "helptext", bg = "bg1" }
+"ui.help" = { fg = "helptext", bg = "helpbg" }
 "ui.text" = "fg0"
 "ui.text.focus" = "fg0"
 "ui.menu" = { fg = "fg0", bg = "bg3" }
@@ -109,8 +109,8 @@ bg1 = "#14332A"
 bg2 = "#49385D"
 bg3 = "#3F6457"
 fg0 = "#F8FFF8"
-helptext = "#9485b9"
-helpbg = "#130F1C"
+helptext = "#5E9785"
+helpbg = "#0F241E"
 grey = "#70697D"
 grey1 = "#667E99"
 red = "#FF5D5D"
