@@ -1,6 +1,6 @@
 name = "Ashokai"
-author = "Teriyaki"
-version = "0.1.0"
+author = "TeriyakiBomb"
+version = "1.0.0"
 
 # Syntax highlighting
 "type" = "purple"
@@ -8,28 +8,28 @@ version = "0.1.0"
 "constant.numeric" = "magenta"
 "constant.character.escape" = "orange"
 "string" = "orange"
-"string.regexp" = "blue"
+"string.regexp" = "blue0"
 "comment" = "comment"
 "variable" = "yellow"
 "class" = {fg ="purple", modifiers = ["bold"]}
-"variable.builtin" = "blue"
+"variable.builtin" = "blue0"
 "variable.parameter" = "yellow"
 "variable.other.member" = "fg0"
 "label" = "purple"
 "punctuation" = "grey1"
-"punctuation.delimiter" = "lightblue"
-"punctuation.bracket" = "blue2"
-"keyword" = "blue"
+"punctuation.delimiter" = "lightblue0"
+"punctuation.bracket" = "blue1"
+"keyword" = "blue0"
 "keyword.directive" = "aqua"
-"operator" = "lightblue"
+"operator" = "lightblue0"
 "function" = "green"
-"function.builtin" = "blue"
+"function.builtin" = "blue0"
 "function.macro" = "aqua"
 "tag" = "magenta"
 "namespace" = "aqua"
 "attribute" = "green"
 "constructor" = "purple"
-"module" = "blue"
+"module" = "blue0"
 "special" = "orange"
 "variable.instance_variable" = "magenta"
 
@@ -39,12 +39,12 @@ version = "0.1.0"
 "markup.heading.2" = { fg = "magenta", modifiers = ["bold"] }
 "markup.heading.3" = { fg = "yellow", modifiers = ["bold"] }
 "markup.heading.4" = { fg = "green", modifiers = ["bold"] }
-"markup.heading.5" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "blue0", modifiers = ["bold"] }
 "markup.heading.6" = { fg = "fg0", modifiers = ["bold"] }
 "markup.list" = "red"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
-"markup.link.url" = { fg = "blue", modifiers = ["underlined"] }
+"markup.link.url" = { fg = "blue0", modifiers = ["underlined"] }
 "markup.link.text" = "magenta"
 "markup.quote" = "grey1"
 "markup.raw" = "green"
@@ -56,24 +56,24 @@ version = "0.1.0"
 
 # UI elements
 "ui.background" = { bg = "bg0" }
-"ui.background.separator" = "grey"
+"ui.background.separator" = "grey0"
 
 "ui.cursor" = { fg = "bg0", bg = "cursor" }
-"ui.cursor.match" = { fg = "orange", bg = "bg_visual_yellow" }
+"ui.cursor.match" = { fg = "orange", bg = "selection" }
 "ui.cursor.insert" = { fg = "bg0", bg = "grey1" }
-"ui.cursor.select" = { fg = "bg0", bg = "blue" }
+"ui.cursor.select" = { fg = "bg0", bg = "blue0" }
 "ui.cursor.primary" = {fg = "bg0", bg ="fg0"}
 "ui.cursor.primary.normal" = {fg = "bg0", bg ="fg0"}
 "ui.cursor.primary.select" = {fg = "bg0", bg ="pink"}
 "ui.cursor.primary.insert" = {fg = "bg0", bg ="green"}
 
-"ui.selection" = { bg = "cursorline" }
+"ui.selection" = { bg = "selection" }
 "ui.selection.primary" = { bg = "bg2" }
 
 "ui.cursorline.primary" = { bg = "cursorline" }
 "ui.cursorline.secondary" = { bg = "cursorline" }
 "ui.statusline" = { fg = "fg0", bg = "bg3" }
-"ui.statusline.inactive" = { fg = "grey", bg = "bg0" }
+"ui.statusline.inactive" = { fg = "grey0", bg = "bg0" }
 "ui.statusline.normal" = { fg = "bg0", bg = "fg0", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "bg0", bg = "green", modifiers = ["bold"] }
 "ui.statusline.select" = { fg = "bg0", bg = "pink", modifiers = ["bold"] }
@@ -83,23 +83,23 @@ version = "0.1.0"
 "ui.bufferline" = { fg = "comment", bg = "bg3" }
 "ui.bufferline.active" = { fg = "fg0", bg = "bg0", modifiers = ["bold"] }
 "ui.popup" = { fg = "grey1", bg = "bg2" }
-"ui.window" = { fg = "grey", bg = "bg0" }
+"ui.window" = { fg = "grey0", bg = "bg0" }
 "ui.help" = { fg = "helptext", bg = "bg1" }
 "ui.text" = "fg0"
 "ui.text.focus" = "fg0"
 "ui.menu" = { fg = "fg0", bg = "bg3" }
-"ui.menu.selected" = { fg = "bg0", bg = "blue", modifiers = ["bold"] }
+"ui.menu.selected" = { fg = "bg0", bg = "blue0", modifiers = ["bold"] }
 "ui.virtual.whitespace" = { fg = "bg3" }
 "ui.virtual.indent-guide" = { fg = "bg3" }
 "ui.virtual.ruler" = { bg = "bg3" }
 
 # Diagnostics
-"hint" = "blue"
+"hint" = "blue0"
 "info" = "aqua"
 "warning" = "yellow"
 "error" = "red"
 "diagnostic" = { underline = { style = "curl" } }
-"diagnostic.hint" = { underline = { color = "blue", style = "dotted" } }
+"diagnostic.hint" = { underline = { color = "blue0", style = "dotted" } }
 "diagnostic.info" = { underline = { color = "aqua", style = "dotted" } }
 "diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
 "diagnostic.error" = { underline = { color = "red", style = "curl" } }
@@ -111,13 +111,13 @@ bg2 = "#2C4A7A"
 bg3 = "#2A3A54"
 fg0 = "#FEFEFF"
 helptext = "#8599B9"
-grey = "#70697D"
+grey0 = "#70697D"
 grey1 = "#667E99"
 red = "#FF5D5D"
 yellow = "#FDC153"
 green = "#64FF85"
-blue = "#7AC3FF"
-blue2 = "#6C849D"
+blue0 = "#7AC3FF"
+blue1 = "#6C849D"
 lightblue = "#B0DDD2"
 aqua = "#5DB1B1"
 orange = "#FF9647"
@@ -133,3 +133,4 @@ comment =  "#4E6A97"
 
 cursor = "#6F757F"
 cursorline = "#1B232E"
+selection = "#1B232E"
