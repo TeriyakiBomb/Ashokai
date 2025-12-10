@@ -1,0 +1,7 @@
+id = "ashokai"
+name = "Ashokai"
+version = "1.0.0"
+schema_version = 1
+authors = ["Teriyaki <https://github.com/TeriyakiBomb>"]
+description = "A colorful, fancy theme for fancy people. Features multiple variants including the original dark blue, Urple (purple), Brahn (brown/warm), and Evermoor (green-tinted)."
+repository = "https://github.com/TeriyakiBomb/Ashokai"
